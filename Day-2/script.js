@@ -68,7 +68,7 @@ console.log(add3)  // 30
 
 //! Template Literals
 
-console.log(`Hello ${myName}, How are you!`);
+console.log(`Hello ${myName}, How are you!`); 
 
 
 // funny thing -
