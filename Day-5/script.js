@@ -26,7 +26,7 @@
 //! Expression 
 // Q2.
 
-// const add = function addTwoNum(a, b){
+// const add = function(a, b){
 //     console.log(+a + +b);
 // }
 
@@ -58,8 +58,15 @@
 
 // Q5.
 
+const addAll = (...numbers) => {
+    let sum = 0;
 
+    for (let number of numbers) { sum += number; }
+    return sum;
+}
 
+console.log(addAll(2, 4, 6, 10));
+console.log(addAll(2, 4, 6, 23, 65, 23, 12, 45));
 
 // Q6.
 
@@ -72,7 +79,7 @@ const checkNumber = (num) => {
 
 }
 
-checkNumber(8);
+// checkNumber(8);
 
 
 // Q7. 
@@ -81,5 +88,5 @@ const greet = (name) => {
     return `Hello ${name}!!`;
 }
 
-const greeting = greet('Sam');
-console.log(greeting);
+// const greeting = greet('Sam');
+// console.log(greeting);
