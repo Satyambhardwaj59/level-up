@@ -19,7 +19,6 @@ Build a JavaScript file that demonstrates:
 
 //! 1. Global Scope
 
-
 let globalVar = 'I am a global variable';
 
 function globalScopeExample() {
@@ -77,8 +76,74 @@ let age = 22;
 
 //! 6. Function Declaration Hoisting
 
-sayHello();
+// sayHello();
 
 function sayHello() {
   console.log("Hello Sam!!, from Function Declaration");
 }
+
+//! 7. Function Expression Hoisting
+
+// greet();   //! TypeError: greet is not a function
+
+var greet = function () {
+  console.log("Hello from Function Expression");
+};
+
+// greet();
+
+
+//! 8. Arrow Function Hoisting
+
+// add(10, 20);   //! ReferenceError
+
+
+const add = (a, b) => a + b;
+
+// console.log(add(10, 20));
+
+
+//! 9. Nested Functions
+
+function outer() {
+  let outerVariable = "Outer Variable";
+
+  function inner() {
+    console.log(outerVariable);
+    console.log("Inner Function");
+  }
+
+//   inner();
+}
+
+// outer();
+
+
+//! 10. Execution order using console.log()
+
+console.log("Step 1");
+
+function first() {
+  console.log("Step 2");
+
+  second();
+
+  console.log("Step 5");
+}
+
+function second() {
+  console.log("Step 3");
+}
+
+first();
+
+console.log("Step 4");  
+
+/*
+Step 1
+Step 2
+Step 3
+Step 5
+Step 4
+
+*/
