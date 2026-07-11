@@ -15,45 +15,45 @@
 //! Add two numbers
 //! Q1. 
 
-// function addTwoNum(a, b){
-//     console.log(+a + +b);
-// }
+function addTwoNum(a, b){
+    console.log(+a + +b);
+}
 
-// addTwoNum(4, 5);
-// addTwoNum('7', 9);
+addTwoNum(4, 5);
+addTwoNum('7', 9);
 
 
 //! Expression 
 // Q2.
 
-// const add = function(a, b){
-//     console.log(+a + +b);
-// }
+const add = function(a, b){
+    console.log(+a + +b);
+}
 
-// add(4, 5);
-// add('7', 9);
+add(4, 5);
+add('7', 9);
 
 
 //! Arrow Function
 //! Q3.
 
-// const addTwoNum = (a, b) => {
-//      console.log(+a + +b);
-// }
+const addTwoNum = (a, b) => {
+     console.log(+a + +b);
+}
 
-// addTwoNum(4, 5);
-// addTwoNum('7', 9);
+addTwoNum(4, 5);
+addTwoNum('7', 9);
 
 
 // Q4.
 
 
-// function addTwoNum(a, b = 10){
-//     console.log(+a + +b);
-// }
+function addTwoNum(a, b = 10){
+    console.log(+a + +b);
+}
 
-// addTwoNum(4);
-// addTwoNum('7', 9);
+addTwoNum(4);
+addTwoNum('7', 9);
 
 
 // Q5.
