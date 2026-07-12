@@ -40,7 +40,7 @@ console.log(student);
 
 student.college = "Netaji Subhas Institute of Technology";
 
-console.log("\nAfter Adding College:");
+console.log("After Adding College:");
 console.log(student);
 
 
@@ -48,14 +48,14 @@ console.log(student);
 
 student.age = 23;
 
-console.log("\nAfter Updating Age:");
+console.log("After Updating Age:");
 console.log(student);
 
 //! 4. Delete a property
 
 delete student.skills;
 
-console.log("\nAfter Deleting Skills:");
+console.log("After Deleting Skills:");
 console.log(student);
 
 //! 5. Object Destructuring
@@ -64,3 +64,87 @@ const { name, age, address } = student;
 console.log(name);
 console.log(age);
 console.log(address);
+
+
+//! 6. Optional Chaining
+
+// Existing Property
+console.log("Existing City:");
+console.log(student.address?.city);
+
+// Non-existing Property
+console.log("Non-existing Country:");
+console.log(student.address?.country);
+
+// Deeply Missing Property
+console.log("Missing Department:");
+console.log(student.department?.name);
+
+
+//! 7. Print keys, values, and entries
+
+console.log("Object Keys:");
+console.log(Object.keys(student));
+
+console.log("Object Values:");
+console.log(Object.values(student));
+
+console.log("Object Entries:");
+console.log(Object.entries(student));
+
+
+//! 8. Create a copy using the spread operator
+
+const copiedStudent = {
+  ...student,
+};
+
+console.log("Copied Object:");
+console.log(copiedStudent);
+
+// Update copied object
+copiedStudent.name = "Rahul";
+
+console.log("Copied Object After Modification:");
+console.log(copiedStudent);
+
+console.log("Original Object Remains:");
+console.log(student);
+
+//! 9. Demonstrate Object.freeze() and Object.seal()
+
+const frozenObject = {
+  brand: "Apple",
+  model: "iPhone 16",
+};
+
+Object.freeze(frozenObject);
+
+// These operations will fail silently (or throw an error in strict mode)
+frozenObject.brand = "Samsung";
+frozenObject.color = "Black";
+delete frozenObject.model;
+
+console.log("Frozen Object:");
+console.log(frozenObject);
+
+//! Object.seal() 
+
+const sealedObject = {
+  name: "Laptop",
+  price: 60000,
+};
+
+Object.seal(sealedObject);
+
+// Allowed: Update existing property
+sealedObject.price = 65000;
+
+// Not Allowed: Add new property
+sealedObject.brand = "Dell";
+
+// Not Allowed: Delete property
+delete sealedObject.name;
+
+console.log("Sealed Object:");
+console.log(sealedObject);
