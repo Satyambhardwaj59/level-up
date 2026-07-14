@@ -37,7 +37,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 6 | Scope, Hoisting & Execution Context | ✅ |
 | 7 | Objects & Object Methods | ✅ |
 | 8 | Arrays & Array Methods | ✅ |
-| 9 | Coming Soon | ⏳ |
+| 9 | Strings, Numbers, Math & Date | ✅ |
 | 10 | Coming Soon | ⏳ |
 | 11 | Coming Soon | ⏳ |
 | 12 | Coming Soon | ⏳ |
@@ -249,6 +249,64 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 - forEach()
 - for...of
 
+
+## Day 9 - Strings, Numbers, Math & Date
+
+### 📝 String Methods
+
+- ✅ Creating Strings
+- ✅ String Length
+- ✅ charAt()
+- ✅ at()
+- ✅ slice()
+- substring()
+- replace()
+- replaceAll()
+- split()
+- trim()
+- toUpperCase()
+- toLowerCase()
+- includes()
+- startsWith()
+- endsWith()
+
+### 🔢 Number Methods
+
+- Number()
+- parseInt()
+- parseFloat()
+- toFixed()
+- toPrecision()
+- isNaN()
+- Number.isInteger()
+
+### ➗ Math Object
+
+- Math.round()
+- Math.floor()
+- Math.ceil()
+- Math.trunc()
+- Math.random()
+- Math.max()
+- Math.min()
+- Math.pow()
+- Math.sqrt()
+- Math.abs()
+
+### 📅 Date Object
+
+- Creating Dates
+- Current Date & Time
+- getFullYear()
+- getMonth()
+- getDate()
+- getDay()
+- getHours()
+- getMinutes()
+- toLocaleDateString()
+- toLocaleTimeString()
+
+
 ---
 
 # 📂 Repository Structure
@@ -264,6 +322,7 @@ LEVEL-UP/
 │── Day-6/
 │── Day-7/
 │── Day-8/
+│── Day-9/
 │── README.md
 ```
 
