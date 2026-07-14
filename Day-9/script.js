@@ -35,3 +35,16 @@ console.log("Math.round:", Math.round(number));
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 console.log("Random Number between 1 and 100:", randomNumber);
 
+
+
+//! 5. Displays the current date and time in a readable format.
+const currentDate = new Date();
+console.log(currentDate)
+console.log("Current Date and Time:", currentDate.toLocaleString());
+
+
+//! 6. Calculates the number of days remaining until New Year's Day.
+const newYear = new Date(currentDate.getFullYear() + 1, 0, 1);
+const timeDifference = newYear - currentDate;
+const daysRemaining = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+console.log("Days Remaining until New Year's Day:", daysRemaining);
