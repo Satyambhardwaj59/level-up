@@ -307,7 +307,65 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 - toLocaleTimeString()
 
 
----
+# 📅 Day 10 – JavaScript DOM Fundamentals
+
+Today I explored the **Document Object Model (DOM)**, which allows JavaScript to interact with and manipulate HTML documents dynamically.
+
+## 📚 Topics Covered
+
+### 🌐 DOM Fundamentals
+
+- What is the DOM?
+- DOM Tree
+- document Object
+
+
+### 🔍 Selecting Elements
+
+- getElementById()
+- getElementsByClassName()
+- getElementsByTagName()
+- querySelector()
+- querySelectorAll()
+
+### ✏️ Manipulating Elements
+
+- innerHTML
+- innerText
+- textContent
+- setAttribute()
+- getAttribute()
+- removeAttribute()
+
+
+### 🎨 Styling Elements
+
+- style
+- classList.add()
+- classList.remove()
+- classList.toggle()
+- classList.contains()
+
+### 🧱 Creating & Removing Elements
+
+- createElement()
+- appendChild()
+- prepend()
+- remove()
+- replaceChild()
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand the structure of the DOM.
+- Select HTML elements using different DOM methods.
+- Modify element content and attributes dynamically.
+- Change styles and manage CSS classes using JavaScript.
+- Create, insert, replace, and remove HTML elements programmatically.
+- Build interactive web pages using core DOM manipulation techniques.
+
 
 # 📂 Repository Structure
 
@@ -323,6 +381,9 @@ LEVEL-UP/
 │── Day-7/
 │── Day-8/
 │── Day-9/
+│── Day-10/
+│── Day-11/
+│── Day-12/
 │── README.md
 ```
 
