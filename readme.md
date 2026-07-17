@@ -38,9 +38,9 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 7 | Objects & Object Methods | ✅ |
 | 8 | Arrays & Array Methods | ✅ |
 | 9 | Strings, Numbers, Math & Date | ✅ |
-| 10 | Coming Soon | ⏳ |
-| 11 | Coming Soon | ⏳ |
-| 12 | Coming Soon | ⏳ |
+| 10 | JavaScript DOM Fundamentals | ✅ |
+| 11 | JavaScript Events & Event Handling | ✅ |
+| 12 | JavaScript Event Propagation & Event Delegation | ✅ |
 | 13 | Coming Soon | ⏳ |
 | 14 | Coming Soon | ⏳ |
 | 15 | Coming Soon | ⏳ |
@@ -423,6 +423,52 @@ By the end of this session, I was able to:
 - Identify the difference between `event.target` and `event.currentTarget`.
 - Prevent default browser behavior using `preventDefault()`.
 - Understand the basics of event propagation and `stopPropagation()`.
+
+
+# 📅 Day 12 – JavaScript Event Propagation & Event Delegation
+
+Today I learned how events travel through the DOM and how **Event Delegation** can simplify event handling while improving performance in JavaScript applications.
+
+## 📚 Topics Covered
+
+### 🔄 Event Propagation
+
+- What is Event Propagation?
+- Event Bubbling
+- Event Capturing (Trickling)
+- Event Flow (Capture → Target → Bubble)
+
+
+### 🎯 Event Object
+
+- event.target
+- event.currentTarget
+- event.stopPropagation()
+- event.stopImmediatePropagation()
+- event.preventDefault()
+
+
+### ⚡ Event Delegation
+
+- What is Event Delegation?
+- Why use Event Delegation?
+- Performance Benefits
+- Dynamic Elements
+- Practical Examples
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how events propagate through the DOM.
+- Differentiate between the capturing and bubbling phases.
+- Control event flow using `stopPropagation()` and `stopImmediatePropagation()`.
+- Prevent default browser actions using `preventDefault()`.
+- Understand the difference between `event.target` and `event.currentTarget`.
+- Implement Event Delegation to efficiently handle events on dynamic elements.
+- Write cleaner and more scalable event-handling code.
+
 
 
 # 📂 Repository Structure

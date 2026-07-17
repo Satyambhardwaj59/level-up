@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+    <h1>Today Topic: JavaScript Event Propagation & Event Delegation</h1>
+
+    <ul>
+        <h2>🔄 Event Propagation</h2>
+        <li>✅ What is Event Propagation?</li>
+        <li>✅ Event Bubbling</li>
+        <li>✅ Event Capturing (Trickling)</li>
+        <li>✅ Event Flow (Capture → Target → Bubble)</li>
+    </ul>
+
+    <ul>
+        <h2>🎯 Event Object</h2>
+        <li>✅ event.target</li>
+        <li>✅ event.currentTarget</li>
+        <li>✅ event.stopPropagation()</li>
+        <li>✅ event.stopImmediatePropagation()</li>
+        <li>✅ event.preventDefault()</li>
+    </ul>
+
+    <ul>
+        <h2>⚡ Event Delegation</h2>
+        <li>✅ What is Event Delegation?</li>
+        <li>✅ Why use Event Delegation?</li>
+        <li>✅ Performance Benefits</li>
+        <li>✅ Dynamic Elements</li>
+        <li>✅ Practical Examples</li>
+    </ul>
+
+
+     <h1>JavaScript To-Do List</h1>
+
+    <!-- Form -->
+    <form id="taskForm">
+
+        <input
+            type="text"
+            id="taskInput"
+            placeholder="Enter Task"
+        >
+
+        <button>Add Task</button>
+
+    </form>
+
+    <br>
+
+    <!-- Task List -->
+    <ul id="taskList">
+
+    </ul>
+
+    <hr>
+
+    <h2>Event Bubbling Demo</h2>
+
+    <div id="outer">
+
+        Outer Div
+
+        <div id="middle">
+
+            Middle Div
+
+            <div id="inner">
+                Inner Div
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   
