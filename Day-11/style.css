@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px;
+}
+
+button{
+    padding:10px 18px;
+    margin:8px;
+    cursor:pointer;
+}
+
+input{
+    padding:10px;
+    width:250px;
+    margin:10px 0;
+    border:2px solid gray;
+    outline:none;
+}
+
+#coordinates,
+#keyOutput,
+#message{
+    font-size:18px;
+    margin-top:10px;
+}

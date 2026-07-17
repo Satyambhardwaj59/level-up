@@ -367,6 +367,64 @@ By the end of this session, I was able to:
 - Build interactive web pages using core DOM manipulation techniques.
 
 
+# 📅 Day 11 – JavaScript Events & Event Handling
+
+Today I learned how JavaScript responds to user interactions using **Events**. Event handling is one of the most important concepts for building dynamic and interactive web applications.
+
+## 📚 Topics Covered
+
+### 🖱️ Mouse Events
+
+- click
+- dblclick
+- mousedown
+- mouseup
+- mouseenter
+- mouseleave
+- mousemove
+
+
+### ⌨️ Keyboard Events
+
+- keydown
+- keyup
+
+
+### 📝 Form Events
+
+- submit
+- change
+- input
+- focus
+- blur
+
+
+### 🎯 Event Handling
+
+- Inline Events
+- onclick
+- addEventListener()
+- removeEventListener()
+- Event Object (event)
+- event.target
+- event.currentTarget
+- preventDefault()
+- stopPropagation() (Introduction)
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how JavaScript handles user interactions through events.
+- Work with common mouse, keyboard, and form events.
+- Attach and remove event listeners dynamically.
+- Access information using the Event object.
+- Identify the difference between `event.target` and `event.currentTarget`.
+- Prevent default browser behavior using `preventDefault()`.
+- Understand the basics of event propagation and `stopPropagation()`.
+
+
 # 📂 Repository Structure
 
 ```

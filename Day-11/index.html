@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+ <body>
+    <h1>Today Topic: JavaScript Events & Event Handling</h1>
+
+    <ul>
+        <h2>🖱️ Mouse Events</h2>
+        <li>✅ click</li>
+        <li>✅ dblclick</li>
+        <li>✅ mousedown</li>
+        <li>✅ mouseup</li>
+        <li>✅ mouseenter</li>
+        <li>✅ mouseleave</li>
+        <li>✅ mousemove</li>
+    </ul>
+
+    <ul>
+        <h2>⌨️ Keyboard Events</h2>
+        <li>✅ keydown</li>
+        <li>✅ keyup</li>
+    </ul>
+
+    <ul>
+        <h2>📝 Form Events</h2>
+        <li>✅ submit</li>
+        <li>✅ change</li>
+        <li>✅ input</li>
+        <li>✅ focus</li>
+        <li>✅ blur</li>
+    </ul>
+
+    <ul>
+        <h2>🎯 Event Handling</h2>
+        <li>✅ Inline Events</li>
+        <li>✅ onclick</li>
+        <li>✅ addEventListener()</li>
+        <li>✅ removeEventListener()</li>
+        <li>✅ Event Object (event)</li>
+        <li>✅ event.target</li>
+        <li>✅ event.currentTarget</li>
+        <li>✅ preventDefault()</li>
+        <li>✅ stopPropagation() (Introduction)</li>
+    </ul>
+
+
+     <!-- Change Text -->
+    <h2 id="heading">Welcome to JavaScript</h2>
+
+    <button id="changeBtn">Change Text</button>
+
+    <hr>
+
+    <!-- Mouse Coordinates -->
+    <h2>Mouse Position</h2>
+
+    <p id="coordinates">
+        Move your mouse...
+    </p>
+
+    <hr>
+
+    <!-- Keyboard Event -->
+    <h2>Keyboard Event</h2>
+
+    <input
+        type="text"
+        id="keyboardInput"
+        placeholder="Press any key..."
+    >
+
+    <p id="keyOutput">
+        Key Pressed:
+    </p>
+
+    <hr>
+
+    <!-- Form -->
+    <h2>Form Event</h2>
+
+    <form id="myForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter Name"
+        >
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <p id="message"></p>
+
+    <hr>
+
+    <!-- Event Target -->
+    <button class="btn">Button 1</button>
+
+    <button class="btn">Button 2</button>
+
+    <button class="btn">Button 3</button>
+
+    <hr>
+
+    <!-- Remove Event Listener -->
+    <button id="onceBtn">
+        Click Me Once
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
