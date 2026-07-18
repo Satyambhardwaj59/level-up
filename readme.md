@@ -41,7 +41,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 10 | JavaScript DOM Fundamentals | ✅ |
 | 11 | JavaScript Events & Event Handling | ✅ |
 | 12 | JavaScript Event Propagation & Event Delegation | ✅ |
-| 13 | Coming Soon | ⏳ |
+| 13 | JavaScript First-Class Functions, Callbacks, Higher-Order Functions & Closures | ✅ |
 | 14 | Coming Soon | ⏳ |
 | 15 | Coming Soon | ⏳ |
 | 16 | Coming Soon | ⏳ |
@@ -468,6 +468,68 @@ By the end of this session, I was able to:
 - Understand the difference between `event.target` and `event.currentTarget`.
 - Implement Event Delegation to efficiently handle events on dynamic elements.
 - Write cleaner and more scalable event-handling code.
+
+
+
+# 📅 Day 13 – JavaScript First-Class Functions, Callbacks, Higher-Order Functions & Closures
+
+Today I explored one of the most powerful aspects of JavaScript—**functions**. I learned how functions are treated as first-class citizens, how callbacks and higher-order functions simplify code, and how closures enable data persistence and encapsulation.
+
+
+## 📚 Topics Covered
+
+### 🎯 First-Class Functions
+
+- What are First-Class Functions?
+- Functions as Values
+- Storing Functions in Variables
+- Passing Functions as Arguments
+- Returning Functions from Functions
+
+
+
+### 🔄 Callback Functions
+
+- What is a Callback Function?
+- Synchronous Callbacks
+- Asynchronous Callbacks
+- Callback Hell (Introduction)
+
+
+
+### ⚡ Higher-Order Functions (HOFs)
+
+- What is a Higher-Order Function?
+- Why Use Higher-Order Functions?
+- Real-world Examples
+- map()
+- filter()
+- reduce()
+- forEach()
+
+
+
+### 🔒 Closures (Introduction)
+
+- What is a Closure?
+- Lexical Environment
+- Why Closures Work
+- Practical Use Cases (Preview)
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand why JavaScript functions are called first-class citizens.
+- Pass functions as arguments and return functions from other functions.
+- Differentiate between synchronous and asynchronous callbacks.
+- Understand the basics of callback hell and why it occurs.
+- Use higher-order functions like `map()`, `filter()`, `reduce()`, and `forEach()` effectively.
+- Learn how closures preserve access to variables through lexical scope.
+- Recognize practical use cases of closures in modern JavaScript.
+
+
 
 
 
