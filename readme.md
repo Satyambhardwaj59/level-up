@@ -42,8 +42,8 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 11 | JavaScript Events & Event Handling | ✅ |
 | 12 | JavaScript Event Propagation & Event Delegation | ✅ |
 | 13 | JavaScript First-Class Functions, Callbacks, Higher-Order Functions & Closures | ✅ |
-| 14 | Coming Soon | ⏳ |
-| 15 | Coming Soon | ⏳ |
+| 14 | JavaScript Asynchronous Programming | ✅ |
+| 15 | Modern JavaScript (ES6+) Features | ✅ |
 | 16 | Coming Soon | ⏳ |
 | 17 | Coming Soon | ⏳ |
 | 18 | Coming Soon | ⏳ |
@@ -593,6 +593,66 @@ By the end of this session, I was able to:
 - Handle errors gracefully with `try...catch`.
 - Fetch data from APIs and parse JSON responses using the Fetch API.
 
+# 📅 Day 15 – Modern JavaScript (ES6+) Features
+
+Today I explored the most commonly used **Modern JavaScript (ES6+) features** that make code cleaner, more readable, and easier to maintain. These concepts are widely used in React, Node.js, and modern frontend development.
+
+
+## 📚 Topics Covered
+
+### 🎯 Variables & Syntax
+
+- let vs const vs var (Quick Revision)
+- Template Literals
+- Enhanced Object Literals
+
+
+### 📦 Destructuring
+
+- Object Destructuring
+- Array Destructuring
+- Nested Destructuring
+- Default Values
+
+
+### ✨ Operators
+
+- Spread Operator (`...`)
+- Rest Operator (`...`)
+- Optional Chaining (`?.`)
+- Nullish Coalescing (`??`)
+- Logical AND (`&&`)
+- Logical OR (`||`)
+
+
+### 📁 Modules
+
+- export
+- export default
+- import
+- Named vs Default Exports
+
+
+### ⚡ Dynamic Imports
+
+- `import()`
+- Code Splitting (Introduction)
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand the differences between `let`, `const`, and `var`.
+- Write cleaner strings using template literals.
+- Use enhanced object literals for concise object creation.
+- Extract values efficiently with object and array destructuring.
+- Apply spread and rest operators in practical scenarios.
+- Safely access nested properties with optional chaining.
+- Handle default values using nullish coalescing.
+- Organize code using ES Modules with `export` and `import`.
+- Differentiate between named and default exports.
+- Learn how dynamic imports enable lazy loading and code splitting.
 
 
 
@@ -615,6 +675,7 @@ LEVEL-UP/
 │── Day-12/
 │── Day-13/
 │── Day-14/
+│── Day-15/
 │── Polifill/
 │── README.md
 ```
