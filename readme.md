@@ -529,6 +529,69 @@ By the end of this session, I was able to:
 - Learn how closures preserve access to variables through lexical scope.
 - Recognize practical use cases of closures in modern JavaScript.
 
+# 📅 Day 14 – JavaScript Asynchronous Programming
+
+Today I explored how JavaScript handles asynchronous operations. I learned about the JavaScript runtime, Event Loop, Promises, `async/await`, and the Fetch API to build responsive and non-blocking applications.
+
+
+## 📚 Topics Covered
+
+### 🔹 JavaScript Runtime
+
+- Synchronous vs Asynchronous JavaScript
+- Single-threaded Nature of JavaScript
+- Call Stack
+- Web APIs (Browser APIs)
+- Callback Queue
+- Microtask Queue
+- Event Loop
+
+
+### ⏱️ Timers
+
+- setTimeout()
+- setInterval()
+- clearTimeout()
+- clearInterval()
+
+
+### 🤝 Promises
+
+- What is a Promise?
+- Promise States (Pending, Fulfilled, Rejected)
+- Creating a Promise
+- `.then()`
+- `.catch()`
+- `.finally()`
+- Promise Chaining
+
+
+### ⚡ Async/Await
+
+- `async` Functions
+- `await` Keyword
+- Error Handling with `try...catch`
+
+
+### 🌐 Fetch API
+
+- Making GET Requests
+- Parsing JSON
+- Handling API Errors
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how JavaScript executes synchronous and asynchronous code.
+- Explain the roles of the Call Stack, Web APIs, Callback Queue, Microtask Queue, and Event Loop.
+- Use timers with `setTimeout()` and `setInterval()`.
+- Create and consume Promises using `.then()`, `.catch()`, and `.finally()`.
+- Chain multiple asynchronous operations using Promise Chaining.
+- Write cleaner asynchronous code using `async` and `await`.
+- Handle errors gracefully with `try...catch`.
+- Fetch data from APIs and parse JSON responses using the Fetch API.
 
 
 
@@ -550,6 +613,9 @@ LEVEL-UP/
 │── Day-10/
 │── Day-11/
 │── Day-12/
+│── Day-13/
+│── Day-14/
+│── Polifill/
 │── README.md
 ```
 
