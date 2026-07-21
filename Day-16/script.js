@@ -122,3 +122,165 @@ person.greet();
 // Arrow functions don't have their own this.
 
 
+// 7. Method Borrowing using call()
+
+const person1 = {
+    name: "Satyam"
+};
+
+const person2 = {
+    name: "Rahul"
+};
+
+function introduce(city) {
+    console.log(
+        `${this.name} lives in ${city}`
+    );
+}
+
+introduce.call(person1, "Patna");
+introduce.call(person2, "Delhi");
+
+
+// 8. Passing Arguments using apply()
+
+
+introduce.apply(person1, ["Mumbai"]);
+
+introduce.apply(person2, ["Kolkata"]);
+
+
+// 9. Creating Reusable Function using bind()
+
+
+const introduceSatyam = introduce.bind(person1);
+
+introduceSatyam("Bangalore");
+
+const introduceRahul = introduce.bind(person2);
+
+introduceRahul("Pune");
+
+
+// 10. IIFE
+
+
+(function () {
+
+    console.log("IIFE Executed");
+
+})();
+
+
+// 11. Debounce
+
+
+function debounce(callback, delay) {
+
+    let timer;
+
+    return function (...args) {
+
+        clearTimeout(timer);
+
+        timer = setTimeout(() => {
+
+            callback(...args);
+
+        }, delay);
+
+    };
+
+}
+
+const search = debounce((text) => {
+
+    console.log("Searching:", text);
+
+}, 1000);
+
+// Try:
+// search("R");
+// search("Re");
+// search("React");
+
+// Only the last call runs after 1 second.
+
+
+// 12. Throttle
+
+
+function throttle(callback, delay) {
+
+    let allow = true;
+
+    return function (...args) {
+
+        if (!allow) return;
+
+        callback(...args);
+
+        allow = false;
+
+        setTimeout(() => {
+
+            allow = true;
+
+        }, delay);
+
+    };
+
+}
+
+const save = throttle(() => {
+
+    console.log("Data Saved");
+
+}, 2000);
+
+// Try:
+// save();
+// save();
+// save();
+
+// Only the first call executes immediately.
+// Others wait until 2 seconds pass.
+
+
+// 13. Memoized Fibonacci
+
+
+function memoizedFibonacci() {
+
+    const cache = {};
+
+    return function fib(n) {
+
+        if (n in cache) {
+
+            console.log("From Cache");
+
+            return cache[n];
+
+        }
+
+        if (n <= 1) {
+
+            return n;
+
+        }
+
+        cache[n] = fib(n - 1) + fib(n - 2);
+
+        return cache[n];
+
+    };
+
+}
+
+const fibonacci = memoizedFibonacci();
+
+console.log(fibonacci(10));
+console.log(fibonacci(10));
+
+// Second call comes from cache.
