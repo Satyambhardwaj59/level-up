@@ -44,7 +44,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 13 | JavaScript First-Class Functions, Callbacks, Higher-Order Functions & Closures | ✅ |
 | 14 | JavaScript Asynchronous Programming | ✅ |
 | 15 | Modern JavaScript (ES6+) Features | ✅ |
-| 16 | Coming Soon | ⏳ |
+| 16 | Advanced JavaScript Concepts | ✅ |
 | 17 | Coming Soon | ⏳ |
 | 18 | Coming Soon | ⏳ |
 | 19 | Coming Soon | ⏳ |
@@ -654,6 +654,71 @@ By the end of this session, I was able to:
 - Differentiate between named and default exports.
 - Learn how dynamic imports enable lazy loading and code splitting.
 
+# 📅 Day 16 – Advanced JavaScript Concepts
+
+Today I explored some of the most important advanced JavaScript concepts used in modern web development. These topics help write cleaner, more efficient, and scalable applications while improving performance and code organization.
+
+
+## 📚 Topics Covered
+
+### 🔒 Closures (Deep Dive)
+
+- What is a Closure?
+- Lexical Environment
+- Data Encapsulation
+- Private Variables
+- Real-world Use Cases
+
+
+### 🎯 The `this` Keyword
+
+- Global Context
+- Function Context
+- Object Methods
+- Arrow Functions and `this`
+- Event Listeners and `this`
+
+
+### 🔗 `call()`, `apply()`, and `bind()`
+
+- What are they?
+- Borrowing Methods
+- Changing the `this` Context
+- Differences between `call()`, `apply()`, and `bind()`
+
+
+### ⚡ IIFE (Immediately Invoked Function Expression)
+
+- Why use an IIFE?
+- Avoiding Global Scope Pollution
+
+
+### 🎨 Function Techniques
+
+- Currying (Introduction)
+- Memoization (Introduction)
+
+
+### 🚀 Performance Optimization
+
+- Debouncing
+- Throttling
+- Real-world Examples (Search Input, Scroll Events)
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how closures preserve access to variables through lexical scope.
+- Use closures for data encapsulation and creating private variables.
+- Explain how the `this` keyword behaves in different execution contexts.
+- Differentiate between `call()`, `apply()`, and `bind()` and know when to use each.
+- Understand the purpose of IIFEs and how they prevent global scope pollution.
+- Learn the fundamentals of currying and memoization for writing reusable and optimized functions.
+- Implement debouncing and throttling to improve application performance and user experience.
+
+
 
 
 # 📂 Repository Structure
@@ -676,6 +741,7 @@ LEVEL-UP/
 │── Day-13/
 │── Day-14/
 │── Day-15/
+│── Day-16/
 │── Polifill/
 │── README.md
 ```

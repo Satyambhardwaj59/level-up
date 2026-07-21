@@ -26,7 +26,6 @@ Build a JavaScript file that demonstrates:
 
 // 1. Closure-Based Counter (Private State)
 
-
 function createCounter() {
     let count = 0;
 
@@ -74,9 +73,7 @@ console.log(this);
 // Browser -> window
 // Node.js -> {}
 
-
 // 4. this in Regular Function
-
 
 function regularFunction() {
     console.log(this);
@@ -89,7 +86,6 @@ regularFunction();
 
 
 // 5. this in Object Method
-
 
 const student = {
 
@@ -105,7 +101,6 @@ student.greet();
 
 
 // 6. this in Arrow Function
-
 
 const person = {
 
