@@ -45,7 +45,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 14 | JavaScript Asynchronous Programming | ✅ |
 | 15 | Modern JavaScript (ES6+) Features | ✅ |
 | 16 | Advanced JavaScript Concepts | ✅ |
-| 17 | Coming Soon | ⏳ |
+| 17 | JavaScript Object-Oriented Programming (OOP) | ✅ |
 | 18 | Coming Soon | ⏳ |
 | 19 | Coming Soon | ⏳ |
 | 20 | Coming Soon | ⏳ |
@@ -249,6 +249,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 - forEach()
 - for...of
 
+---
 
 ## Day 9 - Strings, Numbers, Math & Date
 
@@ -306,6 +307,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 - toLocaleDateString()
 - toLocaleTimeString()
 
+---
 
 # 📅 Day 10 – JavaScript DOM Fundamentals
 
@@ -366,6 +368,7 @@ By the end of this session, I was able to:
 - Create, insert, replace, and remove HTML elements programmatically.
 - Build interactive web pages using core DOM manipulation techniques.
 
+---
 
 # 📅 Day 11 – JavaScript Events & Event Handling
 
@@ -424,6 +427,7 @@ By the end of this session, I was able to:
 - Prevent default browser behavior using `preventDefault()`.
 - Understand the basics of event propagation and `stopPropagation()`.
 
+---
 
 # 📅 Day 12 – JavaScript Event Propagation & Event Delegation
 
@@ -469,7 +473,7 @@ By the end of this session, I was able to:
 - Implement Event Delegation to efficiently handle events on dynamic elements.
 - Write cleaner and more scalable event-handling code.
 
-
+---
 
 # 📅 Day 13 – JavaScript First-Class Functions, Callbacks, Higher-Order Functions & Closures
 
@@ -528,6 +532,8 @@ By the end of this session, I was able to:
 - Use higher-order functions like `map()`, `filter()`, `reduce()`, and `forEach()` effectively.
 - Learn how closures preserve access to variables through lexical scope.
 - Recognize practical use cases of closures in modern JavaScript.
+
+---
 
 # 📅 Day 14 – JavaScript Asynchronous Programming
 
@@ -593,6 +599,8 @@ By the end of this session, I was able to:
 - Handle errors gracefully with `try...catch`.
 - Fetch data from APIs and parse JSON responses using the Fetch API.
 
+---
+
 # 📅 Day 15 – Modern JavaScript (ES6+) Features
 
 Today I explored the most commonly used **Modern JavaScript (ES6+) features** that make code cleaner, more readable, and easier to maintain. These concepts are widely used in React, Node.js, and modern frontend development.
@@ -653,6 +661,8 @@ By the end of this session, I was able to:
 - Organize code using ES Modules with `export` and `import`.
 - Differentiate between named and default exports.
 - Learn how dynamic imports enable lazy loading and code splitting.
+
+---
 
 # 📅 Day 16 – Advanced JavaScript Concepts
 
@@ -718,6 +728,84 @@ By the end of this session, I was able to:
 - Learn the fundamentals of currying and memoization for writing reusable and optimized functions.
 - Implement debouncing and throttling to improve application performance and user experience.
 
+---
+
+# 📅 Day 17 – JavaScript Object-Oriented Programming (OOP)
+
+Today I explored **Object-Oriented Programming (OOP)** in JavaScript. I learned how JavaScript implements OOP using constructor functions, prototypes, and ES6 classes to create reusable, maintainable, and scalable applications.
+
+---
+
+## 📚 Topics Covered
+
+### 🏗️ OOP Fundamentals
+
+- What is OOP?
+- Four Pillars of OOP
+  - Encapsulation
+  - Abstraction
+  - Inheritance
+  - Polymorphism
+
+
+
+### 🔨 Constructor Functions
+
+- Creating Objects with Constructor Functions
+- The `new` Keyword
+- `this` Inside Constructors
+
+
+
+### 🔗 Prototypes
+
+- What is a Prototype?
+- Prototype Chain
+- Prototype Inheritance
+- Adding Methods to Prototype
+
+
+
+### 🏛️ ES6 Classes
+
+- `class`
+- `constructor()`
+- Instance Methods
+- Static Methods
+- Getters
+- Setters
+
+
+
+### 👨‍👩‍👧 Inheritance
+
+- `extends`
+- `super()`
+- Method Overriding
+
+
+
+### 🧩 Object Methods
+
+- `Object.create()`
+- `instanceof`
+- `hasOwnProperty()`
+
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand the core principles of Object-Oriented Programming.
+- Explain the four pillars of OOP and their purpose.
+- Create objects using constructor functions and the `new` keyword.
+- Understand how prototypes and the prototype chain work in JavaScript.
+- Add shared methods using prototypes to optimize memory usage.
+- Build reusable classes using ES6 `class` syntax.
+- Implement inheritance with `extends` and `super()`.
+- Override methods in child classes to achieve polymorphism.
+- Use `Object.create()`, `instanceof`, and `hasOwnProperty()` effectively.
 
 
 
@@ -742,6 +830,7 @@ LEVEL-UP/
 │── Day-14/
 │── Day-15/
 │── Day-16/
+│── Day-17/
 │── Polifill/
 │── README.md
 ```
