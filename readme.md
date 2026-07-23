@@ -46,7 +46,8 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 15 | Modern JavaScript (ES6+) Features | ✅ |
 | 16 | Advanced JavaScript Concepts | ✅ |
 | 17 | JavaScript Object-Oriented Programming (OOP) | ✅ |
-| 18 | Coming Soon | ⏳ |
+| 18 | JavaScript Error Handling, JSON & Browser Storage | ✅ |
+| ReactJs |
 | 19 | Coming Soon | ⏳ |
 | 20 | Coming Soon | ⏳ |
 | 21 | Coming Soon | ⏳ |
@@ -807,7 +808,76 @@ By the end of this session, I was able to:
 - Override methods in child classes to achieve polymorphism.
 - Use `Object.create()`, `instanceof`, and `hasOwnProperty()` effectively.
 
+---
 
+# 📅 Day 18 – JavaScript Error Handling, JSON & Browser Storage
+
+Today I learned how to build more robust JavaScript applications by handling errors effectively, working with JSON data, and storing information in the browser using `localStorage` and `sessionStorage`.
+
+
+## 📚 Topics Covered
+
+### ⚠️ Error Handling
+
+- What is an Error?
+- `try...catch`
+- `finally`
+- `throw`
+- Creating Custom Errors
+- Error Object (`name`, `message`, `stack`)
+- Common JavaScript Errors
+  - `ReferenceError`
+  - `TypeError`
+  - `SyntaxError`
+  - `RangeError`
+
+
+### 📦 JSON
+
+- What is JSON?
+- `JSON.stringify()`
+- `JSON.parse()`
+- Converting Objects to JSON
+- Converting JSON to JavaScript Objects
+
+
+### 💾 Browser Storage
+
+#### localStorage
+
+- `setItem()`
+- `getItem()`
+- `removeItem()`
+- `clear()`
+
+#### sessionStorage
+
+- Differences from `localStorage`
+- Use Cases
+
+
+### 🛡️ Best Practices
+
+- Safe JSON Parsing
+- Error Handling with Fetch
+- Graceful Fallbacks
+- Optional Chaining (`?.`) with API Responses
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand different types of JavaScript errors and how they occur.
+- Handle runtime exceptions using `try...catch`, `finally`, and `throw`.
+- Create custom error messages for better debugging.
+- Work with JSON by converting JavaScript objects to JSON strings and vice versa.
+- Store, retrieve, update, and remove data using `localStorage`.
+- Understand the differences between `localStorage` and `sessionStorage`.
+- Parse JSON safely to avoid runtime errors.
+- Build more resilient applications by combining proper error handling with API requests and browser storage.
+
+---
 
 # 📂 Repository Structure
 
@@ -831,6 +901,7 @@ LEVEL-UP/
 │── Day-15/
 │── Day-16/
 │── Day-17/
+│── Day-18/
 │── Polifill/
 │── README.md
 ```
