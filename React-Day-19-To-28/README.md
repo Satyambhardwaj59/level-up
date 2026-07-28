@@ -6,8 +6,8 @@
 | 19 | React Introduction, Setup & JSX | ✅ |
 | 20 | React Components, Props & Rendering | ✅ |
 | 21 | React State, Event Handling & Forms | ✅ |
-| 22 | Event Handling & Conditional Rendering | ⏳ |
-| 23 | Lists, Keys & Forms | ⏳ |
+| 22 | Event Handling & Conditional Rendering | ✅ |
+| 23 | React Router & Navigation| ✅ |
 | 24 | React Hooks | ⏳ |
 | 25 | React Router | ⏳ |
 | 26 | Context API & API Integration | ⏳ |
@@ -236,6 +236,142 @@ By the end of this session, I was able to:
 
 ---
 
+# 📅 Day 22 – React Hooks, Performance Optimization & Custom Hooks
+
+Today I learned about powerful React Hooks that help manage side effects, access DOM elements, optimize application performance, and reuse logic across multiple components.
+
+
+## 📚 Topics Covered
+
+### ⚛️ useEffect
+
+- What is `useEffect`?
+- Why do we need it?
+- Dependency Array
+- No Dependency Array vs Empty Dependency Array vs Dependencies
+- Cleanup Function
+- Common Mistakes
+
+
+### 📌 useRef
+
+- What is `useRef`?
+- Accessing DOM Elements
+- Persisting Values Without Re-rendering
+- Difference between `useRef` and `useState`
+
+
+### 🚀 Performance Hooks
+
+## useMemo
+
+- Why use `useMemo`?
+- Memoizing Expensive Calculations
+- Dependency Array
+
+## useCallback
+
+- Why use `useCallback`?
+- Memoizing Functions
+- Preventing Unnecessary Re-renders
+
+
+### 🛠️ Custom Hooks (Introduction)
+
+- What is a Custom Hook?
+- Rules for Creating Custom Hooks
+- Reusing Logic Across Components
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how `useEffect` manages side effects in React components.
+- Work with dependency arrays and control when effects should run.
+- Implement cleanup functions to prevent memory leaks.
+- Understand the difference between `useRef` and `useState`.
+- Access and manipulate DOM elements using `useRef`.
+- Store values without triggering unnecessary re-renders.
+- Optimize React performance using `useMemo` and `useCallback`.
+- Understand how memoization helps avoid unnecessary calculations and renders.
+- Create reusable logic using custom hooks.
+- Follow React Hook rules and best practices.
+
+---
+
+# 📅 Day 23 – React Router & Navigation
+
+Today I learned how to implement **client-side routing** in React applications using React Router. I explored how Single Page Applications (SPAs) manage multiple pages without refreshing the browser and learned how to create dynamic and protected routes.
+
+
+## 📚 Topics Covered
+
+### 🛣️ React Router Basics
+
+- What is React Router?
+- Why do we need routing in React?
+- SPA Navigation vs Traditional Page Reload
+- Installing React Router DOM
+- `BrowserRouter`
+
+
+### 🔗 Creating Routes
+
+- `Routes` Component
+- `Route` Component
+- Creating Multiple Pages
+- Default Routes
+- 404 Not Found Routes
+
+
+### 🧭 Navigation
+
+- `Link` Component
+- `NavLink` Component
+- Difference between `Link` and `NavLink`
+- Active Navigation Styling
+
+
+### 🚀 Programmatic Navigation
+
+- `useNavigate()`
+- Redirecting After Actions
+- Navigation with State
+
+
+### 📌 Dynamic Routing
+
+- URL Parameters
+- `useParams()`
+- Dynamic Pages
+- Fetching Data Based on Params
+
+
+### 🏗️ Advanced Routing
+
+- Nested Routes
+- Layout Routes
+- `Outlet` Component
+- Protected Routes (Introduction)
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand the importance of routing in React Single Page Applications.
+- Set up React Router using `react-router-dom`.
+- Create multiple pages and navigate between them without page reloads.
+- Use `Routes` and `Route` components to define application routes.
+- Implement navigation using `Link` and `NavLink`.
+- Navigate programmatically using the `useNavigate()` Hook.
+- Create dynamic routes using URL parameters.
+- Fetch data based on dynamic route parameters.
+- Build nested layouts using nested routes and the `Outlet` component.
+- Understand the basics of protected routes for authentication-based navigation.
+
+---
 
 # 📁 Repository Structure
 
