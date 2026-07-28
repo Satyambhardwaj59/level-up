@@ -97,6 +97,74 @@ By the end of this session, I was able to:
 - Learn how React renders UI using the Virtual DOM.
 - Understand the basics of React's reconciliation process.
 
+---
+
+# 📅 Day 20 – React Components, Props & Rendering
+
+Today I learned how to build reusable UI using **Functional Components**, pass data with **Props**, render content conditionally, and display dynamic lists in React. These concepts form the foundation of every React application.
+
+
+## 📚 Topics Covered
+
+### ⚛️ Functional Components
+
+- What is a Component?
+- Functional Components
+- Naming Conventions
+- Export & Import Components
+- Component Composition
+
+
+### 📦 Props
+
+- What are Props?
+- Passing Props
+- Props Destructuring
+- Default Props
+- Passing Objects & Arrays as Props
+- Passing Functions as Props
+- `children` Prop
+
+
+### 🔀 Conditional Rendering
+
+- `if...else`
+- Ternary Operator (`? :`)
+- Logical AND (`&&`)
+- Rendering `null`
+
+
+### 📋 Rendering Lists
+
+- `map()`
+- Importance of `key`
+- Why not use array index as a key?
+- Rendering Dynamic Data
+
+
+### 🏗️ Component Best Practices
+
+- Keep Components Small
+- Reusable Components
+- Separation of Concerns
+- Folder Structure
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Build reusable UI using functional components.
+- Organize applications using component composition.
+- Pass and receive data using props.
+- Destructure props for cleaner and more readable code.
+- Pass objects, arrays, functions, and JSX through props.
+- Use the `children` prop to create flexible and reusable components.
+- Render UI conditionally using different React techniques.
+- Display dynamic data efficiently with the `map()` method.
+- Understand the importance of unique `key` props for list rendering.
+- Follow React best practices for writing clean, maintainable, and reusable components.
+
 
 
 
