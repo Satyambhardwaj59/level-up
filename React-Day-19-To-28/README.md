@@ -3,9 +3,9 @@
 | Day | Topic | Status |
 |:---:|------------------------------|:------:|
 | **React.js** | | |
-| 19 | React Introduction & JSX | ✅ |
-| 20 | React Components | ⏳ |
-| 21 | Props & State | ⏳ |
+| 19 | React Introduction, Setup & JSX | ✅ |
+| 20 | React Components, Props & Rendering | ✅ |
+| 21 | React State, Event Handling & Forms | ✅ |
 | 22 | Event Handling & Conditional Rendering | ⏳ |
 | 23 | Lists, Keys & Forms | ⏳ |
 | 24 | React Hooks | ⏳ |
@@ -165,12 +165,77 @@ By the end of this session, I was able to:
 - Understand the importance of unique `key` props for list rendering.
 - Follow React best practices for writing clean, maintainable, and reusable components.
 
+---
+
+# 📅 Day 21 – React State, Event Handling & Forms
+
+Today I learned how React manages dynamic data using **State**, handles user interactions through **Events**, and builds interactive forms with controlled components. These concepts are essential for creating responsive and interactive React applications.
 
 
+## 📚 Topics Covered
+
+### ⚛️ React State
+
+- What is State?
+- Why do we need State?
+- `useState` Hook
+- Initial State
+- Updating State
+- Functional State Updates
+- State vs Regular Variables
 
 
+### 🖱️ Event Handling
+
+- Handling Click Events
+- Passing Arguments to Event Handlers
+- Event Object
+- Inline Functions vs Separate Functions
+- React Synthetic Events
+
+
+### 📝 Forms in React
+
+- Controlled Components
+- Handling Input Fields
+- Handling Multiple Inputs
+- Form Submission
+- `preventDefault()`
+
+
+### 🔄 State Management Concepts
+
+- Lifting State Up
+- Sharing State Between Components
+- One-way Data Flow
+
+
+### ⚡ Best Practices
+
+- Never Mutate State Directly
+- Use Functional Updates When Needed
+- Keep State Minimal
+- State Colocation
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand the purpose of state in React applications.
+- Manage component data using the `useState` Hook.
+- Update state correctly using both direct and functional updates.
+- Differentiate between state and regular JavaScript variables.
+- Handle user interactions through React event handlers.
+- Work with React's Synthetic Events and event objects.
+- Build controlled forms by managing input values with state.
+- Handle multiple form fields and process form submissions.
+- Prevent default browser behavior using `preventDefault()`.
+- Share data between components by lifting state up.
+- Follow React best practices for efficient and maintainable state management.
 
 ---
+
 
 # 📁 Repository Structure
 
