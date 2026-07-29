@@ -8,7 +8,7 @@
 | 21 | React State, Event Handling & Forms | ✅ |
 | 22 | Event Handling & Conditional Rendering | ✅ |
 | 23 | React Router & Navigation| ✅ |
-| 24 | React Hooks | ⏳ |
+| 24 | React API Integration & Data Fetching | ✅ |
 | 25 | React Router | ⏳ |
 | 26 | Context API & API Integration | ⏳ |
 | 27 | Performance Optimization & Custom Hooks | ⏳ |
@@ -370,6 +370,78 @@ By the end of this session, I was able to:
 - Fetch data based on dynamic route parameters.
 - Build nested layouts using nested routes and the `Outlet` component.
 - Understand the basics of protected routes for authentication-based navigation.
+
+---
+
+# 📅 Day 24 – React API Integration & Data Fetching
+
+Today I learned how to fetch and manage data from external APIs in React applications. I explored different ways to make API requests, handle various UI states, optimize search performance, and organize API-related code following best practices.
+
+
+## 📚 Topics Covered
+
+### 🌐 API Basics
+
+- What is an API?
+- REST API Basics
+- HTTP Methods (GET, POST, PUT, DELETE)
+- Understanding JSON Responses
+
+
+### 📡 Fetching Data
+
+- Fetch API
+- Axios
+- Async/Await
+- Handling API Responses
+
+
+### ⚛️ React & APIs
+
+- `useEffect` for API Calls
+- Fetch Data on Component Mount
+- Dependency Array with APIs
+- Cleanup Function (`AbortController`)
+
+
+### ⏳ UI States
+
+- Loading State
+- Error State
+- Empty State
+- Skeleton Loaders (Introduction)
+
+
+### 🔍 Search & Optimization
+
+- Search Functionality
+- Debouncing Search Input
+- Pagination
+- Infinite Scroll (Introduction)
+
+
+### 📁 Best Practices
+
+- Environment Variables (`.env`)
+- API Key Security
+- Reusable API Functions
+- Folder Structure for API Services
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how REST APIs work and communicate with React applications.
+- Make API requests using both the Fetch API and Axios.
+- Handle asynchronous operations with `async`/`await`.
+- Fetch data safely inside `useEffect`.
+- Prevent memory leaks using `AbortController`.
+- Manage loading, error, and empty states for a better user experience.
+- Implement search functionality with debouncing for improved performance.
+- Understand the basics of pagination and infinite scrolling.
+- Secure API keys using environment variables.
+- Organize API logic into reusable service functions for better maintainability.
 
 ---
 
