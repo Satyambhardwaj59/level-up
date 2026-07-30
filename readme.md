@@ -49,13 +49,13 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 17 | JavaScript Object-Oriented Programming (OOP) | ✅ |
 | 18 | JavaScript Error Handling, JSON & Browser Storage | ✅ |
 | **React.js** | | |
-| 19 | React Introduction & JSX | ✅ |
-| 20 | React Components | ⏳ |
-| 21 | Props & State | ⏳ |
-| 22 | Event Handling & Conditional Rendering | ⏳ |
-| 23 | Lists, Keys & Forms | ⏳ |
-| 24 | React Hooks | ⏳ |
-| 25 | React Router | ⏳ |
+| 19 | React Introduction, Setup & JSX | ✅ |
+| 20 | React Components, Props & Rendering | ✅ |
+| 21 | React State, Event Handling & Forms | ✅ |
+| 22 | Event Handling & Conditional Rendering | ✅ |
+| 23 | React Router & Navigation| ✅ |
+| 24 | React API Integration & Data Fetching | ✅ |
+| 25 | React State Management (Context API & Redux Toolkit) | ✅ |
 | 26 | Context API & API Integration | ⏳ |
 | 27 | Performance Optimization & Custom Hooks | ⏳ |
 | 28 | Redux Toolkit | ⏳ |
