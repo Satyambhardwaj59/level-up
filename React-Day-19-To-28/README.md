@@ -9,7 +9,7 @@
 | 22 | Event Handling & Conditional Rendering | ✅ |
 | 23 | React Router & Navigation| ✅ |
 | 24 | React API Integration & Data Fetching | ✅ |
-| 25 | React Router | ⏳ |
+| 25 | React State Management (Context API & Redux Toolkit) | ✅ |
 | 26 | Context API & API Integration | ⏳ |
 | 27 | Performance Optimization & Custom Hooks | ⏳ |
 | 28 | Redux Toolkit | ⏳ |
@@ -442,6 +442,85 @@ By the end of this session, I was able to:
 - Understand the basics of pagination and infinite scrolling.
 - Secure API keys using environment variables.
 - Organize API logic into reusable service functions for better maintainability.
+
+---
+
+# 📅 Day 25 – React State Management (Context API & Redux Toolkit)
+
+Today I learned how to manage application state efficiently in React. I explored the differences between local and global state, used the Context API to avoid prop drilling, and learned how Redux Toolkit simplifies scalable state management.
+
+
+## 📚 Topics Covered
+
+### 🌍 State Management Basics
+
+- Local State vs Global State
+- What is Prop Drilling?
+- When to Use Global State
+- State Management Strategies
+
+
+### ⚛️ Context API
+
+- What is Context API?
+- `createContext()`
+- `Context.Provider`
+- `useContext()`
+- Avoiding Prop Drilling
+- Context Best Practices
+
+
+### 🔄 useReducer
+
+- Why `useReducer`?
+- Reducer Function
+- Actions
+- Dispatch
+- Combining `useReducer` with Context API
+
+
+### 🧰 Redux Toolkit
+
+- Why Redux Toolkit?
+- Redux Architecture
+- Store
+- Slice
+- Reducers
+- Actions
+- `configureStore()`
+- `createSlice()`
+
+
+### 🚀 Async State (Introduction)
+
+- `createAsyncThunk()`
+- Loading State
+- Error State
+- API Integration with Redux Toolkit
+
+
+### 📁 Best Practices
+
+- Folder Structure
+- Keep State Minimal
+- Normalize State
+- When to Use Context vs Redux
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Differentiate between local state and global state in React.
+- Understand the problem of prop drilling and how to avoid it.
+- Create and consume shared state using the Context API.
+- Use `useReducer` to manage complex state updates.
+- Combine `useReducer` with the Context API for scalable state management.
+- Understand Redux architecture and the role of the store, slices, reducers, and actions.
+- Configure a Redux store using `configureStore()`.
+- Create slices using `createSlice()` to simplify Redux logic.
+- Learn the basics of asynchronous state management with `createAsyncThunk()`.
+- Choose the right state management solution by understanding when to use Context API versus Redux Toolkit.
 
 ---
 
