@@ -40,3 +40,171 @@
     @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-highlight/20;
   }
 }
+
+
+/* Enable class-based dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Theme Tokens */
+@theme {
+  /* Light Colors */
+  --color-primary-light: #ffffff;
+  --color-secondary-light: #f3f4f6;
+
+  /* Dark Colors */
+  --color-primary-dark: #1a1a2e;
+  --color-secondary-dark: #16213e;
+
+  /* Brand Colors */
+  --color-accent: #0f3460;
+  --color-highlight: #e94560;
+
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+
+  /* Finance */
+  --color-income: #10b981;
+  --color-expense: #ef4444;
+
+  /* Animations */
+  --animate-slide-in: slideIn 0.3s ease-out;
+  --animate-fade-in: fadeIn 0.3s ease-in;
+  --animate-pulse-slow: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* Base Styles */
+@layer base {
+  body {
+    @apply bg-primary-light text-gray-900 transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-primary-dark text-white;
+  }
+}
+
+/* Components */
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .card {
+    @apply rounded-xl shadow-lg p-6 bg-secondary-light dark:bg-secondary-dark;
+  }
+
+  .btn-primary {
+    @apply bg-highlight hover:bg-highlight/90 text-white px-4 py-2 rounded-lg transition;
+  }
+}
+
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-secondary-dark rounded-xl shadow-lg p-6 
+           transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .btn-primary {
+    @apply bg-highlight text-white px-4 py-2 rounded-lg 
+           hover:bg-highlight/90 transition-all duration-300 
+           hover:scale-105 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white 
+           px-4 py-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 
+           transition-all duration-300;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 
+           bg-white dark:bg-gray-800 text-gray-900 dark:text-white 
+           focus:outline-none focus:ring-2 focus:ring-highlight focus:border-transparent
+           transition-all duration-300;
+  }
+  
+  .select-field {
+    @apply w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 
+           bg-white dark:bg-gray-800 text-gray-900 dark:text-white 
+           focus:outline-none focus:ring-2 focus:ring-highlight focus:border-transparent
+           transition-all duration-300 appearance-none;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+
+/* Footer Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Footer Social Icons Hover */
+.social-icon {
+  @apply transition-all duration-300 hover:scale-110 hover:-translate-y-1;
+}
+
+/* Footer Link Hover */
+.footer-link {
+  @apply relative inline-block;
+}
+
+.footer-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-highlight transition-all duration-300;
+}
+
+.footer-link:hover::after {
+  @apply w-full;
+}
