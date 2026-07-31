@@ -56,7 +56,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 23 | React Router & Navigation| ✅ |
 | 24 | React API Integration & Data Fetching | ✅ |
 | 25 | React State Management (Context API & Redux Toolkit) | ✅ |
-| 26 | Context API & API Integration | ⏳ |
+| 26 | React Performance Optimization | ✅ |
 | 27 | Performance Optimization & Custom Hooks | ⏳ |
 | 28 | Redux Toolkit | ⏳ |
 | 29 | Build a Complete React Project | ⏳ |

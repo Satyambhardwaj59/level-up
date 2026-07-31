@@ -10,7 +10,7 @@
 | 23 | React Router & Navigation| ✅ |
 | 24 | React API Integration & Data Fetching | ✅ |
 | 25 | React State Management (Context API & Redux Toolkit) | ✅ |
-| 26 | Context API & API Integration | ⏳ |
+| 26 | React Performance Optimization | ✅ |
 | 27 | Performance Optimization & Custom Hooks | ⏳ |
 | 28 | Redux Toolkit | ⏳ |
 | 29 | Build a Complete React Project | ⏳ |
@@ -523,6 +523,88 @@ By the end of this session, I was able to:
 - Choose the right state management solution by understanding when to use Context API versus Redux Toolkit.
 
 ---
+
+# 📅 Day 26 – React Performance Optimization & Advanced Patterns
+
+Today I learned how to optimize React applications for better performance using memoization techniques, lazy loading, error boundaries, and custom hooks. These concepts help build scalable, efficient, and production-ready React applications.
+
+
+## 📚 Topics Covered
+
+### ⚡ React.memo
+
+- What is `React.memo`?
+- How it prevents unnecessary re-renders
+- Shallow Comparison
+- When to use `React.memo`
+- When NOT to use it
+
+
+### 🧠 useMemo
+
+- What is `useMemo`?
+- Memoizing Expensive Calculations
+- Dependency Array
+- When to use `useMemo`
+- Common Mistakes
+
+
+### 🔄 useCallback
+
+- What is `useCallback`?
+- Memoizing Functions
+- Preventing Unnecessary Child Re-renders
+- `useCallback` vs `useMemo`
+
+
+### 📦 Lazy Loading & Code Splitting
+
+- Why Code Splitting?
+- `React.lazy()`
+- `Suspense`
+- Fallback UI
+- Route-based Lazy Loading
+
+
+### 🛡️ Error Boundaries
+
+- What are Error Boundaries?
+- Why are they Important?
+- Creating an Error Boundary
+- Limitations
+
+
+### 🪝 Custom Hooks (Advanced)
+
+- Why Create Custom Hooks?
+- Extract Reusable Logic
+- Hook Naming Conventions
+- Best Practices
+
+
+### 📊 Performance Debugging
+
+- React DevTools Profiler
+- Identifying Unnecessary Re-renders
+- Optimizing Component Trees
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how `React.memo` reduces unnecessary component re-renders.
+- Optimize expensive computations using `useMemo`.
+- Memoize callback functions with `useCallback` to improve rendering performance.
+- Differentiate between `useMemo` and `useCallback` and know when to use each.
+- Implement lazy loading with `React.lazy()` and `Suspense` to reduce initial bundle size.
+- Understand the purpose and limitations of Error Boundaries.
+- Extract reusable business logic into custom hooks following React best practices.
+- Analyze application performance using the React DevTools Profiler.
+- Identify unnecessary re-renders and optimize component trees for better performance.
+
+---
+
 
 # 📁 Repository Structure
 
