@@ -208,3 +208,172 @@
 .footer-link:hover::after {
   @apply w-full;
 }
+
+
+/* Day- 26 */
+
+@layer base {
+  body {
+    @apply bg-primary text-white min-h-screen;
+  }
+  
+  #root {
+    @apply min-h-screen;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card {
+    @apply bg-secondary/50 backdrop-blur-sm rounded-xl overflow-hidden 
+           border border-gray-800 hover:border-highlight/50 
+           transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:scale-[1.02] hover:shadow-2xl hover:shadow-highlight/20;
+  }
+  
+  .btn-primary {
+    @apply bg-highlight text-white px-6 py-2 rounded-lg 
+           hover:bg-highlight/90 transition-all duration-300 
+           hover:scale-105 active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary/50 backdrop-blur-sm text-white px-6 py-2 rounded-lg 
+           border border-gray-700 hover:border-highlight/50 
+           transition-all duration-300 hover:bg-secondary/80;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 bg-secondary/50 backdrop-blur-sm 
+           border border-gray-700 rounded-lg text-white 
+           focus:outline-none focus:border-highlight focus:ring-2 focus:ring-highlight/20
+           placeholder-gray-400 transition-all duration-300;
+  }
+  
+  .select-field {
+    @apply w-full px-4 py-2 bg-secondary/50 backdrop-blur-sm 
+           border border-gray-700 rounded-lg text-white 
+           focus:outline-none focus:border-highlight focus:ring-2 focus:ring-highlight/20
+           transition-all duration-300 appearance-none;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+}
+
+/* Footer Animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Footer Social Icons Hover */
+.social-icon {
+  @apply transition-all duration-300 hover:scale-110 hover:-translate-y-1;
+}
+
+/* Footer Link Hover */
+.footer-link {
+  @apply relative inline-block;
+}
+
+.footer-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-highlight transition-all duration-300;
+}
+
+.footer-link:hover::after {
+  @apply w-full;
+}
+
+/* Newsletter input focus */
+.newsletter-input:focus {
+  @apply ring-2 ring-highlight/20 border-highlight;
+}
+
+/* Cart animations */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.cart-enter {
+  animation: slideIn 0.3s ease-out;
+}
+
+.cart-exit {
+  animation: slideOut 0.3s ease-in;
+}
+
+/* Cart item animation */
+@keyframes cartItemSlide {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.cart-item {
+  animation: cartItemSlide 0.3s ease-out;
+}
+
+/* Badge pulse */
+@keyframes badgePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.badge-pulse {
+  animation: badgePulse 1s ease-in-out infinite;
+}
