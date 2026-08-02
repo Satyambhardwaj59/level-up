@@ -10,10 +10,7 @@ import { Provider } from "react-redux"
 // import Home from "./Day-26/Home"
 import React from "react";
 // import { store } from "./Day-26/store";
-import Home from "./Day-28/Home"
-import { store } from "./Day-28/store";
-import { HelmetProvider } from 'react-helmet-async';
-import { Toaster } from 'react-hot-toast';
+import Home from "./Day-27/Home"
 
 
 const App = () => {
@@ -46,40 +43,11 @@ const App = () => {
   // </React.StrictMode>
   // )
 
-  return (
-    <React.StrictMode>
-      <Provider store={store}>
-        <HelmetProvider>
-          <BrowserRouter>
-            <Home />
-            <Toaster
-              position="top-right"
-              toastOptions={{
-                duration: 3000,
-                style: {
-                  background: '#363636',
-                  color: '#fff',
-                },
-                success: {
-                  duration: 3000,
-                  iconTheme: {
-                    primary: '#10b981',
-                    secondary: '#fff',
-                  },
-                },
-                error: {
-                  duration: 4000,
-                  iconTheme: {
-                    primary: '#ef4444',
-                    secondary: '#fff',
-                  },
-                },
-              }}
-            />
-          </BrowserRouter>
-        </HelmetProvider>
-      </Provider>
-    </React.StrictMode>
+  // day 27 
+   return (
+    <div>
+      <Home />
+    </div>
   )
 
 }
