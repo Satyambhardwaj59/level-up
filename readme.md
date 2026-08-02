@@ -57,10 +57,8 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 24 | React API Integration & Data Fetching | ✅ |
 | 25 | React State Management (Context API & Redux Toolkit) | ✅ |
 | 26 | React Performance Optimization | ✅ |
-| 27 | Performance Optimization & Custom Hooks | ⏳ |
-| 28 | Redux Toolkit | ⏳ |
-| 29 | Build a Complete React Project | ⏳ |
-| 30 | Deployment & Final Project | ⏳ |
+| 27 | Advanced React Patterns & Project Architecture | ✅ |
+| 28 | React Revision & Project | ✅ |
 
 
 # 📂 Repository Structure

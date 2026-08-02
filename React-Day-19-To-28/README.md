@@ -11,10 +11,8 @@
 | 24 | React API Integration & Data Fetching | ✅ |
 | 25 | React State Management (Context API & Redux Toolkit) | ✅ |
 | 26 | React Performance Optimization | ✅ |
-| 27 | Performance Optimization & Custom Hooks | ⏳ |
-| 28 | Redux Toolkit | ⏳ |
-| 29 | Build a Complete React Project | ⏳ |
-| 30 | Deployment & Final Project | ⏳ |
+| 27 | Advanced React Patterns & Project Architecture | ✅ |
+| 28 | React Revision & Project | ✅ |
 
 
 ---
@@ -604,6 +602,189 @@ By the end of this session, I was able to:
 - Identify unnecessary re-renders and optimize component trees for better performance.
 
 ---
+
+# 📅 Day 27 – Advanced React Patterns & Project Architecture
+
+Today I explored advanced React patterns that help build scalable and maintainable applications. I learned how to reuse component logic using Compound Components, Higher-Order Components (HOCs), Render Props, Portals, advanced refs, custom hooks, and industry-standard project architecture.
+
+
+## 📚 Topics Covered
+
+### 🧩 Compound Components
+
+- What are Compound Components?
+- Parent-Child Communication
+- Building Flexible APIs
+- Real-world Examples (Accordion, Tabs)
+
+
+### 🔄 Higher-Order Components (HOC)
+
+- What is an HOC?
+- Reusing Component Logic
+- Common HOC Examples
+- HOC vs Custom Hooks
+
+
+### 🎭 Render Props
+
+- What are Render Props?
+- Sharing Logic Between Components
+- Render Props vs HOC
+
+
+### 🚪 Portals
+
+- What are React Portals?
+- `createPortal()`
+- Modals
+- Tooltips
+- Dropdowns
+
+
+### 🎯 Refs
+
+- `forwardRef`
+- `useImperativeHandle`
+- Imperative APIs
+
+
+### 🪝 Advanced Custom Hooks
+
+- Creating Reusable Hooks
+- Hook Composition
+- Best Practices
+
+
+### 📁 Project Architecture
+
+- Feature-Based Folder Structure
+- Barrel Exports (`index.js`)
+- Component Reusability
+- Clean Code Practices
+
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand how Compound Components create flexible and reusable component APIs.
+- Reuse component logic using Higher-Order Components (HOCs).
+- Compare Render Props, HOCs, and Custom Hooks to choose the right pattern for different scenarios.
+- Build UI elements such as modals, tooltips, and dropdowns using React Portals.
+- Expose imperative methods with `forwardRef` and `useImperativeHandle`.
+- Create advanced custom hooks to encapsulate reusable business logic.
+- Organize React applications using a feature-based folder structure.
+- Improve code maintainability with barrel exports and reusable components.
+- Apply clean code principles to build scalable, production-ready React applications.
+
+---
+
+# 📅 Day 28 – React Revision & Advanced Concepts
+
+Today I revised the core concepts of React, reinforced my understanding of hooks, routing, state management, performance optimization, and explored advanced React features commonly used in production-ready applications.
+
+
+## 📚 Topics Covered
+
+### ⚛️ React Fundamentals
+
+- React Basics
+- JSX
+- Components
+- Props
+- Conditional Rendering
+- Lists & Keys
+- Component Composition
+
+
+### 🔥 State Management
+
+- `useState`
+- Lifting State
+- Controlled Components
+- Forms
+
+
+### 🪝 React Hooks
+
+- `useEffect`
+- `useRef`
+- `useMemo`
+- `useCallback`
+- Custom Hooks
+
+
+### 🌍 Routing
+
+- React Router
+- Nested Routes
+- Dynamic Routes
+- Protected Routes
+- Layout Routes
+- `useNavigate`
+- `useParams`
+
+
+### 🌐 API Integration
+
+- Fetch API / Axios
+- Loading State
+- Error Handling
+- Search Functionality
+- Debouncing
+- Pagination
+
+
+### 📦 Global State Management
+
+- Context API
+- `useContext`
+- `useReducer`
+- Redux Toolkit
+- `createSlice`
+- `configureStore`
+- Async Thunks
+
+
+### ⚡ Performance Optimization
+
+- `React.memo`
+- `useMemo`
+- `useCallback`
+- Lazy Loading
+- Code Splitting
+- `Suspense`
+
+
+### 🚀 Advanced React
+
+- Portals
+- `forwardRef`
+- `useImperativeHandle`
+- Custom Hooks
+- Error Boundaries
+- Reusable Components
+- Feature-Based Folder Structure
+
+
+## 🎯 Learning Outcomes
+
+By the end of this revision, I was able to:
+
+- Strengthen my understanding of React fundamentals and component-based architecture.
+- Build reusable and maintainable components using props and composition.
+- Manage local and global state effectively with Hooks, Context API, and Redux Toolkit.
+- Implement client-side routing with nested, dynamic, and protected routes.
+- Integrate REST APIs while handling loading, error, and empty states.
+- Optimize React applications using memoization, lazy loading, and code splitting.
+- Understand advanced React concepts like Portals, `forwardRef`, and `useImperativeHandle`.
+- Create reusable custom hooks to share logic across components.
+- Organize scalable React projects using a feature-based folder structure.
+- Consolidate the knowledge required to build production-ready React applications.
+
+---
+
 
 
 # 📁 Repository Structure
