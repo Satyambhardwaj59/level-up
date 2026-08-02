@@ -78,24 +78,24 @@ const Home = () => {
                 size="lg"
               >
                 <ModalBody>
-                  <p className="text-gray-600 dark:text-gray-300">
+                  <p className="text-gray-600 dark:text-gray-300 ">
                     This is a fully featured modal component with:
                   </p>
-                  <ul className="mt-4 space-y-2 text-gray-600 dark:text-gray-300">
+                  <ul className="mt-4 space-y-2 text-gray-600  dark:text-gray-300">
                     <li className="flex items-center gap-2">
-                      <FaCheck className="text-green-500" />
+                      <FaCheck className="text-green-500 max-h-20" />
                       Close on outside click
                     </li>
                     <li className="flex items-center gap-2">
-                      <FaCheck className="text-green-500" />
+                      <FaCheck className="text-green-500 max-h-20" />
                       Close with Escape key
                     </li>
-                    <li className="flex items-center gap-2">
-                      <FaCheck className="text-green-500" />
+                    <li className="flex items-center  gap-2">
+                      <FaCheck className="text-green-500 max-h-20" />
                       Portal implementation
                     </li>
                     <li className="flex items-center gap-2">
-                      <FaCheck className="text-green-500" />
+                      <FaCheck className="text-green-500 max-h-20" />
                       ForwardRef support
                     </li>
                   </ul>
