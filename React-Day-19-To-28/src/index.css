@@ -1,88 +1,39 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: #1a1a2e;
-  --color-secondary: #16213e;
-  --color-accent: #0f3460;
-  --color-highlight: #e94560;
-}
-
-@theme {
-  --animate-spin-slow: spin 1s linear infinite;
-  --animate-pulse-slow: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  --animate-fade-in: fadeIn 0.5s ease-in-out;
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-}
-
-@layer base {
-  body {
-    @apply bg-primary text-white min-h-screen;
-  }
-}
-
-@layer components {
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-
-  .card-hover {
-    @apply transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-highlight/20;
-  }
-}
-
-
 /* Enable class-based dark mode */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Theme Tokens */
+/* =========================
+   Theme
+========================= */
 @theme {
-  /* Light Colors */
-  --color-primary-light: #ffffff;
-  --color-secondary-light: #f3f4f6;
+  /* Colors */
+  --color-primary: #1a1a2e;
+  --color-secondary: #16213e;
 
-  /* Dark Colors */
+  --color-primary-light: #ffffff;
   --color-primary-dark: #1a1a2e;
+
+  --color-secondary-light: #f3f4f6;
   --color-secondary-dark: #16213e;
 
-  /* Brand Colors */
   --color-accent: #0f3460;
   --color-highlight: #e94560;
 
-  /* Status Colors */
   --color-success: #10b981;
   --color-warning: #f59e0b;
   --color-danger: #ef4444;
 
-  /* Finance */
   --color-income: #10b981;
   --color-expense: #ef4444;
 
   /* Animations */
-  --animate-slide-in: slideIn 0.3s ease-out;
-  --animate-fade-in: fadeIn 0.3s ease-in;
+  --animate-spin-slow: spin 1s linear infinite;
   --animate-pulse-slow: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-
-  @keyframes slideIn {
-    from {
-      transform: translateY(-10px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
+  --animate-fade-in: fadeIn 0.5s ease-in-out;
+  --animate-slide-up: slideUp 0.3s ease-out;
+  --animate-slide-in: slideIn 0.3s ease-out;
+  --animate-bounce-in: bounceIn 0.5s ease-out;
 
   @keyframes fadeIn {
     from {
@@ -92,288 +43,252 @@
       opacity: 1;
     }
   }
-}
 
-/* Base Styles */
-@layer base {
-  body {
-    @apply bg-primary-light text-gray-900 transition-colors duration-300;
-  }
-
-  .dark body {
-    @apply bg-primary-dark text-white;
-  }
-}
-
-/* Components */
-@layer components {
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @keyframes slideUp {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
-  .card {
-    @apply rounded-xl shadow-lg p-6 bg-secondary-light dark:bg-secondary-dark;
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 
-  .btn-primary {
-    @apply bg-highlight hover:bg-highlight/90 text-white px-4 py-2 rounded-lg transition;
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.3);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    70% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
-}
 
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
 
-@layer base {
-  body {
-    @apply transition-colors duration-300;
+    50% {
+      transform: translateY(-5px);
+    }
   }
-}
 
-@layer components {
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
-  
-  .card {
-    @apply bg-white dark:bg-secondary-dark rounded-xl shadow-lg p-6 
-           transition-all duration-300 hover:shadow-xl;
-  }
-  
-  .btn-primary {
-    @apply bg-highlight text-white px-4 py-2 rounded-lg 
-           hover:bg-highlight/90 transition-all duration-300 
-           hover:scale-105 active:scale-95;
-  }
-  
-  .btn-secondary {
-    @apply bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-white 
-           px-4 py-2 rounded-lg hover:bg-gray-300 dark:hover:bg-gray-600 
-           transition-all duration-300;
-  }
-  
-  .input-field {
-    @apply w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 
-           bg-white dark:bg-gray-800 text-gray-900 dark:text-white 
-           focus:outline-none focus:ring-2 focus:ring-highlight focus:border-transparent
-           transition-all duration-300;
-  }
-  
-  .select-field {
-    @apply w-full px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 
-           bg-white dark:bg-gray-800 text-gray-900 dark:text-white 
-           focus:outline-none focus:ring-2 focus:ring-highlight focus:border-transparent
-           transition-all duration-300 appearance-none;
-  }
-}
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+      opacity: 1;
+    }
 
-@layer utilities {
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
   }
-  
-  .scrollbar-hide {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-}
 
+  @keyframes cartItemSlide {
+    from {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
 
-/* Footer Animation */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
-  50% {
-    transform: translateY(-5px);
+
+  @keyframes badgePulse {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
   }
 }
 
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-/* Footer Social Icons Hover */
-.social-icon {
-  @apply transition-all duration-300 hover:scale-110 hover:-translate-y-1;
-}
-
-/* Footer Link Hover */
-.footer-link {
-  @apply relative inline-block;
-}
-
-.footer-link::after {
-  content: '';
-  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-highlight transition-all duration-300;
-}
-
-.footer-link:hover::after {
-  @apply w-full;
-}
-
-
-/* Day- 26 */
+/* =========================
+   Base
+========================= */
 
 @layer base {
   body {
-    @apply bg-primary text-white min-h-screen;
+    @apply min-h-screen bg-primary text-white transition-colors duration-300;
   }
-  
-  #root {
+
+  /* #root {
     @apply min-h-screen;
-  }
+  } */
+
+  #root {
+  @apply min-h-screen flex flex-col;
 }
+}
+
+/* =========================
+   Components
+========================= */
 
 @layer components {
   .container-custom {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
-  
+
+  /* .card {
+    @apply rounded-xl overflow-hidden
+           bg-secondary/50 backdrop-blur-sm
+           border border-gray-800
+           transition-all duration-300
+           hover:border-highlight/50
+           hover:shadow-xl;
+  } */
+
   .card {
-    @apply bg-secondary/50 backdrop-blur-sm rounded-xl overflow-hidden 
-           border border-gray-800 hover:border-highlight/50 
+  @apply bg-white dark:bg-secondary-dark
+         rounded-xl shadow-lg p-6;
+}
+
+  .card-hover {
+    @apply transition-all duration-300
+           hover:scale-[1.02]
+           hover:shadow-2xl
+           hover:shadow-highlight/20;
+  }
+
+  .btn-primary {
+    @apply bg-highlight text-white
+           px-6 py-2 rounded-lg
+           transition-all duration-300
+           hover:bg-highlight/90
+           hover:scale-105
+           active:scale-95
+           disabled:opacity-50
+disabled:cursor-not-allowed
+disabled:hover:scale-100;
+
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200
+dark:bg-gray-700
+           text-white
+           px-6 py-2 rounded-lg
+           border border-gray-700
+           transition-all duration-300
+           hover:bg-secondary/80
+           hover:border-highlight/50;
+  }
+
+  .input-field,
+  .select-field {
+    @apply w-full
+           px-4 py-2
+           bg-white
+dark:bg-gray-800
+text-gray-900
+           backdrop-blur-sm
+           border border-gray-700
+           rounded-lg
+           /* text-white */
+           transition-all duration-300
+           focus:outline-none
+           focus:ring-2
+           focus:ring-highlight/20
+           focus:border-highlight;
+  }
+
+  .select-field {
+    @apply appearance-none;
+  }
+
+  .social-icon {
+    @apply transition-all duration-300
+           hover:scale-110
+           hover:-translate-y-1;
+  }
+
+  .footer-link {
+    @apply relative inline-block;
+  }
+
+  .footer-link::after {
+    content: "";
+    @apply absolute
+           left-0
+           bottom-0
+           h-0.5
+           w-0
+           bg-highlight
            transition-all duration-300;
   }
-  
-  .card-hover {
-    @apply hover:scale-[1.02] hover:shadow-2xl hover:shadow-highlight/20;
+
+  .footer-link:hover::after {
+    @apply w-full;
   }
-  
-  .btn-primary {
-    @apply bg-highlight text-white px-6 py-2 rounded-lg 
-           hover:bg-highlight/90 transition-all duration-300 
-           hover:scale-105 active:scale-95;
-  }
-  
-  .btn-secondary {
-    @apply bg-secondary/50 backdrop-blur-sm text-white px-6 py-2 rounded-lg 
-           border border-gray-700 hover:border-highlight/50 
-           transition-all duration-300 hover:bg-secondary/80;
-  }
-  
-  .input-field {
-    @apply w-full px-4 py-2 bg-secondary/50 backdrop-blur-sm 
-           border border-gray-700 rounded-lg text-white 
-           focus:outline-none focus:border-highlight focus:ring-2 focus:ring-highlight/20
-           placeholder-gray-400 transition-all duration-300;
-  }
-  
-  .select-field {
-    @apply w-full px-4 py-2 bg-secondary/50 backdrop-blur-sm 
-           border border-gray-700 rounded-lg text-white 
-           focus:outline-none focus:border-highlight focus:ring-2 focus:ring-highlight/20
-           transition-all duration-300 appearance-none;
+
+  .newsletter-input:focus {
+    @apply ring-2 ring-highlight/20 border-highlight;
   }
 }
+
+/* =========================
+   Utilities
+========================= */
 
 @layer utilities {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-  
+
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-  
+
   .text-shadow {
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    text-shadow: 0 2px 4px rgb(0 0 0 / 0.3);
   }
-}
 
-/* Footer Animation */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
   }
-  50% {
-    transform: translateY(-5px);
+
+  .cart-enter {
+    animation: slideIn 0.3s ease-out;
   }
-}
 
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-/* Footer Social Icons Hover */
-.social-icon {
-  @apply transition-all duration-300 hover:scale-110 hover:-translate-y-1;
-}
-
-/* Footer Link Hover */
-.footer-link {
-  @apply relative inline-block;
-}
-
-.footer-link::after {
-  content: '';
-  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-highlight transition-all duration-300;
-}
-
-.footer-link:hover::after {
-  @apply w-full;
-}
-
-/* Newsletter input focus */
-.newsletter-input:focus {
-  @apply ring-2 ring-highlight/20 border-highlight;
-}
-
-/* Cart animations */
-@keyframes slideIn {
-  from {
-    transform: translateX(100%);
-    opacity: 0;
+  .cart-exit {
+    animation: slideOut 0.3s ease-in;
   }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 
-@keyframes slideOut {
-  from {
-    transform: translateX(0);
-    opacity: 1;
+  .cart-item {
+    animation: cartItemSlide 0.3s ease-out;
   }
-  to {
-    transform: translateX(100%);
-    opacity: 0;
+
+  .badge-pulse {
+    animation: badgePulse 1s ease-in-out infinite;
   }
-}
-
-.cart-enter {
-  animation: slideIn 0.3s ease-out;
-}
-
-.cart-exit {
-  animation: slideOut 0.3s ease-in;
-}
-
-/* Cart item animation */
-@keyframes cartItemSlide {
-  from {
-    transform: translateY(-10px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-.cart-item {
-  animation: cartItemSlide 0.3s ease-out;
-}
-
-/* Badge pulse */
-@keyframes badgePulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
-
-.badge-pulse {
-  animation: badgePulse 1s ease-in-out infinite;
 }
