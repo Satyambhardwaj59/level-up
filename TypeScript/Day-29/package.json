@@ -1,0 +1,23 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "description": "Student Management System using TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "student-management-system",
+    "node"
+  ],
+  "author": "Satyam Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2"
+  }
+}
