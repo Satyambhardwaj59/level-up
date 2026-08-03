@@ -1,6 +1,6 @@
-# 🚀 30 Days of JavaScript & Full Stack Learning Challenge
+# 🚀 45 Days of Full Stack Learning Challenge
 
-Welcome to my **30-Day JavaScript & Full Stack Learning Challenge**.
+Welcome to my **45-Day of Full Stack Learning Challenge**.
 
 The goal of this challenge is to build a strong foundation in JavaScript, improve problem-solving skills, prepare for frontend/full-stack interviews, and maintain consistency by learning and coding every day.
 
@@ -59,6 +59,14 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 26 | React Performance Optimization | ✅ |
 | 27 | Advanced React Patterns & Project Architecture | ✅ |
 | 28 | React Revision & Project | ✅ |
+| **TypeScript** | | |
+| 29 | TypeScript Fundamentals & Getting Started| ✅ |
+| 30 | Functions & Objects | ⌛ |
+| 31 | Advanced Types | ⌛ |
+| 32 | Generics | ⌛ |
+| 33 | Advanced TypeScript | ⌛ |
+| 34 | TypeScript with React | ⌛ |
+| 35 | Production-Level TypeScript | ⌛ |
 
 
 # 📂 Repository Structure
@@ -85,9 +93,9 @@ LEVEL-UP/
 │   ├── Day-16/
 │   ├── Day-17/
 │   ├── Day-18/
-│   └── README.md
+│   └── readme.md
 │
-├── React/
+├── React/src/
 │   ├── Day-19/
 │   ├── Day-20/
 │   ├── Day-21/
@@ -98,9 +106,17 @@ LEVEL-UP/
 │   ├── Day-26/
 │   ├── Day-27/
 │   ├── Day-28/
+│   └── README.md
+│
+├── TypeScript/
 │   ├── Day-29/
 │   ├── Day-30/
-│   └── README.md
+│   ├── Day-31/
+│   ├── Day-32/
+│   ├── Day-33/
+│   ├── Day-34/
+│   ├── Day-35/
+│   └── readme.md
 │
 ├── Polyfills/
 │   ├── forEach/
@@ -117,12 +133,20 @@ LEVEL-UP/
 
 # 🎯 Why This Challenge?
 
-- Improve JavaScript fundamentals
-- Become interview-ready
-- Build coding consistency
-- Practice modern JavaScript
-- Document learning publicly
-- Prepare for React and MERN development
+This isn't just a 45-day challenge—it's a long-term roadmap to gradually level up from frontend fundamentals to becoming a production-ready Full Stack Developer.
+
+- Build a strong foundation in JavaScript by understanding concepts in depth.
+- Master React and modern frontend development through hands-on learning.
+- Progress step by step into TypeScript for writing scalable, type-safe applications.
+- Learn Next.js to build modern, full-stack React applications.
+- Deep dive into backend development with Node.js, Express.js, and MongoDB.
+- Explore authentication, REST APIs, databases, deployment, and real-world architecture.
+- Build production-ready projects after completing each major technology.
+- Strengthen problem-solving skills and become interview-ready.
+- Develop consistent learning habits through daily practice.
+- Document my entire learning journey publicly to track progress and help others.
+- Continuously level up by learning one technology at a time instead of rushing through topics.
+- Become a confident, job-ready MERN Stack and Full Stack Developer with a solid understanding of both frontend and backend development.
 
 ---
 

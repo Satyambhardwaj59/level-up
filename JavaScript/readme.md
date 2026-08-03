@@ -1,6 +1,6 @@
-# 🚀 30 Days of JavaScript & Full Stack Learning Challenge
+# 🚀 45 Days of Full Stack Learning Challenge
 
-Welcome to my **30-Day JavaScript & Full Stack Learning Challenge**.
+Welcome to my **45-Day Full Stack Learning Challenge**.
 
 The goal of this challenge is to build a strong foundation in JavaScript, improve problem-solving skills, prepare for frontend/full-stack interviews, and maintain consistency by learning and coding every day.
 
