@@ -61,8 +61,8 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 28 | React Revision & Project | ✅ |
 | **TypeScript** | | |
 | 29 | TypeScript Fundamentals & Getting Started| ✅ |
-| 30 | Functions & Objects | ⌛ |
-| 31 | Advanced Types | ⌛ |
+| 30 | TypeScript Functions, Objects, Type Aliases & Interfaces | ✅ |
+| 31 | TypeScript Advanced Types & Type Narrowing | ✅ |
 | 32 | Generics | ⌛ |
 | 33 | Advanced TypeScript | ⌛ |
 | 34 | TypeScript with React | ⌛ |
