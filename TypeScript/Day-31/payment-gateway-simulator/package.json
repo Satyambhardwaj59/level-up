@@ -1,0 +1,17 @@
+{
+  "name": "payment-gateway-simulator",
+  "version": "1.0.0",
+  "type": "module",
+
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
