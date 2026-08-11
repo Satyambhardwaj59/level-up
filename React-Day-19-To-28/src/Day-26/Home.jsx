@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Loader from './components/Loader';
 import LandingPage from './pages/LandingPage';
 
-// Lazy load ProductDetails
+
 const ProductDetails = lazy(() => import('./pages/ProductDetails'));
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
     <Suspense fallback={<Loader />}>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/products/:id" element={<ProductDetails />} />
       </Routes>
     </Suspense>
   );

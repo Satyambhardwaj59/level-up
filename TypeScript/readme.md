@@ -6,10 +6,10 @@
 | 29 | TypeScript Fundamentals & Getting Started | ✅ |
 | 30 | TypeScript Functions, Objects, Type Aliases & Interfaces | ✅ |
 | 31 | TypeScript Advanced Types & Type Narrowing | ✅ |
-| 32 | Generics | ✅ |
-| 33 | Advanced TypeScript | ✅ |
+| 32 | Generics & Reusable Types | ✅ |
+| 33 | Utility Types & Advanced Type Manipulation | ✅ |
 | 34 | TypeScript with React | ✅ |
-| 35 | Production-Level TypeScript | ✅ |
+| 35 | TypeScript Revision & Production-Ready Capstone | ✅ |
 
 ---
 

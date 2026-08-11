@@ -17,7 +17,7 @@ export default function AboutPage() {
           with a focus on dependability, customer service, and uniqueness.
         </p>
         <p className="text-gray-600 mb-4">
-          Founded in 2024, Product Store has come a long way from its beginnings
+          Founded in 2026, Product Store has come a long way from its beginnings
           in a small office. When we first started out, our passion for providing
           the best products drove us to start our own business.
         </p>

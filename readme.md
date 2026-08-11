@@ -63,10 +63,10 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 29 | TypeScript Fundamentals & Getting Started| ✅ |
 | 30 | TypeScript Functions, Objects, Type Aliases & Interfaces | ✅ |
 | 31 | TypeScript Advanced Types & Type Narrowing | ✅ |
-| 32 | Generics | ✅ |
-| 33 | Advanced TypeScript | ✅ |
+| 32 | Generics & Reusable Types | ✅ |
+| 33 | Utility Types & Advanced Type Manipulation | ✅ |
 | 34 | TypeScript with React | ✅ |
-| 35 | Production-Level TypeScript | ✅ |
+| 35 | TypeScript Revision & Production-Ready Capstone| ✅ |
 | **NextJs** | | |
 | 36 | Next.js Fundamentals, App Router & Navigation  | ✅ |
 
@@ -117,6 +117,19 @@ LEVEL-UP/
 │   ├── Day-33/
 │   ├── Day-34/
 │   ├── Day-35/
+│   └── readme.md
+│
+├── NextJS/src/app
+│   ├── Day-36/
+│   ├── Day-37/
+│   ├── Day-38/
+│   ├── Day-39/
+│   ├── Day-40/
+│   ├── Day-41/
+│   ├── Day-42/
+│   ├── Day-43/
+│   ├── Day-44/
+│   ├── Day-45/
 │   └── readme.md
 │
 ├── Polyfills/
