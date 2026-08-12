@@ -69,6 +69,8 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 35 | TypeScript Revision & Production-Ready Capstone| ✅ |
 | **NextJs** | | |
 | 36 | Next.js Fundamentals, App Router & Navigation  | ✅ |
+| 37 | Next.js Routing, Dynamic Routes & Navigation  | ✅ |
+| 38 | Server Components vs Client Components in Next.js  | ✅ |
 
 # 📂 Repository Structure
 
@@ -131,6 +133,12 @@ LEVEL-UP/
 │   ├── Day-44/
 │   ├── Day-45/
 │   └── readme.md
+│
+├── Interview-Coding-Questions/
+│        ├── JavaScript/
+│        │      ├── index.js
+│        │
+│        │
 │
 ├── Polyfills/
 │   ├── forEach/

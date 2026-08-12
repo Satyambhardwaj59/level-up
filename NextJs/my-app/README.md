@@ -4,6 +4,8 @@
 |:---:|------------------------------|:------:|
 | **NextJs** | | |
 | 36 | Next.js Fundamentals, App Router & Navigation | ✅ |
+| 37 | Next.js Routing, Dynamic Routes & Navigation  | ✅ |
+| 38 | Server Components vs Client Components in Next.js | ✅ |
 
 ---
 
@@ -261,3 +263,224 @@ app/
 
 
 ---
+
+
+# 📅 Day 38 – Next.js Server & Client Components
+
+Today I explored how **Next.js handles Server Components and Client Components**. I learned how to decide where code should run, how to fetch data on the server, pass server-fetched data to interactive client components, use environment variables safely, and handle loading and error states while keeping `"use client"` usage minimal.
+
+---
+
+## 📚 Topics Covered
+
+### 🖥️ React Server Components
+
+- What are Server Components?
+- Server Components in Next.js
+- Default Server Component Behavior
+- Benefits of Server Components
+- Server-Side Rendering
+- Fetching Data on the Server
+- Accessing Server-Only Resources
+
+---
+
+### 💻 Client Components
+
+- What are Client Components?
+- `"use client"` Directive
+- When Client Components are Required
+- Interactive UI
+- Event Handlers
+- React Hooks in Client Components
+- Browser APIs
+- Client-Side State
+
+---
+
+### 🔄 `"use client"`
+
+- What does `"use client"` do?
+- When to use `"use client"`
+- Client Component Boundaries
+- Server → Client Component Architecture
+- Avoiding Unnecessary Client Components
+- Minimizing `"use client"`
+
+---
+
+### 🏗️ Server vs Client Component Architecture
+
+- Server Components vs Client Components
+- Choosing the Correct Component Type
+- Server Component as a Parent
+- Client Component as a Child
+- Component Boundaries
+- Keeping Static UI on the Server
+- Moving Only Interactive Parts to the Client
+
+---
+
+### 🌐 Server-Side Data Fetching
+
+- Fetching Data Inside Server Components
+- Async Server Components
+- API Requests
+- Server-Side Data Processing
+- Keeping Sensitive Logic on the Server
+- Passing Fetched Data to UI
+- Server-Side API Integration
+
+---
+
+### 🔄 Passing Data from Server → Client
+
+- Passing Server Component Data as Props
+- Server-to-Client Data Flow
+- Keeping Data Fetching on the Server
+- Making Only Interactive UI Client-Side
+- Serializable Props
+- Separating Data Fetching from UI Interaction
+
+---
+
+### ⚡ Interactive Client Components
+
+- Click Events
+- Form Interactions
+- `useState`
+- `useEffect`
+- Browser APIs
+- Interactive UI
+- Client-Side State
+- Event Handlers
+
+---
+
+### 🔐 Environment Variables
+
+- What are Environment Variables?
+- `.env` Files
+- Server-Only Environment Variables
+- Protecting Sensitive Configuration
+- API Keys and Secrets
+- Environment-Specific Configuration
+- Keeping Secrets on the Server
+
+---
+
+### 🌍 `NEXT_PUBLIC_*` Variables
+
+- What is `NEXT_PUBLIC_*`?
+- Public Environment Variables
+- Client-Side Environment Variables
+- Difference Between Server-Only and Public Variables
+- When to Use `NEXT_PUBLIC_*`
+- Security Considerations
+
+---
+
+### ⏳ Loading & Error Handling
+
+- `loading.tsx`
+- Route-Level Loading UI
+- Loading States
+- Skeleton UI
+- `error.tsx`
+- Error Boundaries
+- Recovering from Errors
+- `reset()` Function
+- Better User Experience
+
+---
+
+### 🎯 Minimizing `"use client"`
+
+- Keep Server Components as the Default
+- Use Client Components Only When Necessary
+- Move Interactivity into Smaller Components
+- Keep Data Fetching on the Server
+- Avoid Making Entire Pages Client-Side
+- Reduce Client-Side JavaScript
+- Improve Application Performance
+- Maintain a Clean Component Architecture
+
+---
+
+## 💻 Today's Project Upgrade
+
+Today I upgraded my **Next.js project** by separating server-side and client-side responsibilities.
+
+### Added:
+
+- Server Components
+- Client Components
+- Server-Side Data Fetching
+- Passing Data from Server → Client
+- Interactive Client Components
+- Environment Variables
+- `NEXT_PUBLIC_*` Variables
+- Loading UI
+- Error Handling
+- Better Component Architecture
+- Minimal `"use client"` Usage
+
+### Project Architecture
+
+```text
+app/
+├── products/
+│   ├── page.tsx
+│   ├── loading.tsx
+│   └── error.tsx
+│
+├── components/
+│   ├── ProductList.tsx
+│   └── ProductActions.tsx
+│
+└── layout.tsx
+
+```
+
+### 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+Understand React Server Components in Next.js.
+Understand Client Components and the purpose of "use client".
+Differentiate between Server and Client Component responsibilities.
+Decide when a component should run on the server or client.
+Fetch data directly inside Server Components.
+Pass server-fetched data to Client Components through props.
+Build interactive UI using Client Components.
+Understand Server → Client Component Architecture.
+Work with environment variables in Next.js.
+Understand the difference between server-only variables and NEXT_PUBLIC_* variables.
+Keep sensitive environment variables on the server.
+Implement loading states using loading.tsx.
+Handle runtime errors using error.tsx.
+Reduce unnecessary "use client" usage.
+Build a cleaner and more scalable Next.js architecture.
+ 
+ --- 
+
+# 📂 Repository Structure
+
+```text
+NextJs/my-app/src/app
+
+├── Day-36/
+├── Day-37/
+├── Day-38/
+├── Day-39/
+├── Day-40/
+├── Day-41/
+├── Day-42/
+├── Day-43/
+├── Day-44/
+├── Day-45/
+└── readme.md
+
+```
+
+--- 
