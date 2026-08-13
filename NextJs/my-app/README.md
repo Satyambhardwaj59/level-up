@@ -6,6 +6,7 @@
 | 36 | Next.js Fundamentals, App Router & Navigation | ✅ |
 | 37 | Next.js Routing, Dynamic Routes & Navigation  | ✅ |
 | 38 | Server Components vs Client Components in Next.js | ✅ |
+| 39 | Next.js Data Fetching, APIs & Server Actions| ✅ |
 
 ---
 
@@ -463,6 +464,197 @@ Reduce unnecessary "use client" usage.
 Build a cleaner and more scalable Next.js architecture.
  
  --- 
+
+ # 📅 Day 39 – Next.js Data Fetching, APIs & Server Actions
+
+Today I went deeper into **Next.js data handling and backend capabilities**. I learned how to fetch data on the server, understand caching and revalidation, create API endpoints using Route Handlers, work with different HTTP methods, handle dynamic API routes and query parameters, and build type-safe forms using Server Actions and Zod validation.
+
+---
+
+## 📚 Topics Covered
+
+### 🌐 Data Fetching in Next.js
+
+- What is Data Fetching?
+- Fetching Data in Server Components
+- Client-Side vs Server-Side Data Fetching
+- Async Server Components
+- Fetching Data from APIs
+- Handling API Responses
+- Loading and Error States
+
+---
+
+### 🖥️ Server-Side Data Fetching
+
+- Fetching Data on the Server
+- Async Server Components
+- Server-Side API Requests
+- Keeping Sensitive Logic on the Server
+- Passing Server-Fetched Data to Components
+- Server vs Client Data Fetching
+
+---
+
+### ⚡ Caching & Revalidation
+
+- What is Caching?
+- Next.js Data Cache
+- Static Data
+- Dynamic Data
+- Time-Based Revalidation
+- On-Demand Revalidation
+- Understanding Fresh vs Cached Data
+- Improving Application Performance
+
+---
+
+### 🛣️ Route Handlers
+
+- What are Route Handlers?
+- Creating API Routes
+- `route.ts`
+- Handling HTTP Requests
+- Returning JSON Responses
+- Request and Response Objects
+- Building Backend APIs with Next.js
+
+---
+
+### 📡 HTTP Methods
+
+- `GET`
+- `POST`
+- `PUT`
+- `DELETE`
+- Handling Different Request Methods
+- Request Body
+- Response Data
+- HTTP Status Codes
+
+---
+
+### 🔄 Dynamic API Routes
+
+- Dynamic API Route Segments
+- `[id]` Syntax
+- Accessing Route Parameters
+- Fetching Individual Resources
+- Updating Dynamic Resources
+- Deleting Dynamic Resources
+
+---
+
+### 🔎 Query Parameters
+
+- What are Query Parameters?
+- Reading Search Parameters
+- Filtering API Data
+- Searching API Data
+- Pagination with Query Parameters
+- `searchParams`
+
+---
+
+### 🚀 Server Actions
+
+- What are Server Actions?
+- `"use server"` directive
+- Running Functions on the Server
+- Calling Server Actions from Forms
+- Mutating Server Data
+- Server-Side Form Processing
+- Reducing Client-Side API Code
+
+---
+
+### 📝 Form Handling
+
+- Handling Forms in Next.js
+- `FormData`
+- Server Actions with Forms
+- Form Submission
+- Reading Form Values
+- Handling Form Errors
+- Server-Side Validation
+- Form Submission States
+
+---
+
+### ❌ Error Handling
+
+- API Error Handling
+- Server Action Errors
+- Validation Errors
+- HTTP Error Responses
+- `try...catch` blocks
+- Returning Meaningful Error Messages
+- Handling Failed Requests
+- Graceful Error Handling
+
+---
+
+### 🛡️ Zod Validation
+
+- What is Zod?
+- Schema Validation
+- Validating Form Data
+- Validating API Requests
+- Required Fields
+- String and Number Validation
+- Validation Error Messages
+- Server-Side Validation
+
+---
+
+### 🔒 Type-Safe API Responses
+
+- TypeScript with API Responses
+- Defining Response Types
+- Type-Safe Request Data
+- Type-Safe API Functions
+- Combining TypeScript with Zod
+- Preventing Unexpected API Data
+- Reusable API Response Types
+
+---
+
+## 💻 Today's Project Upgrade
+
+Today I upgraded my Next.js project by adding backend and data-handling capabilities.
+
+### Added Features
+- Server-Side Data Fetching
+- API Route Handlers (`GET`, `POST`, `PUT`, `DELETE`)
+- Dynamic API Routes & Query Parameters
+- Server Actions & Form Handling
+- Zod Validation & Error Handling
+- Type-Safe API Responses
+- Caching and Revalidation
+
+---
+
+## 🎯 Learning Outcomes
+
+By the end of this session, I was able to:
+
+- Understand different approaches to data fetching in Next.js.
+- Fetch data directly inside Server Components.
+- Understand caching and revalidation concepts.
+- Create backend APIs using Next.js Route Handlers.
+- Handle `GET`, `POST`, `PUT`, and `DELETE` requests.
+- Create dynamic API routes using `[id]`.
+- Work with query parameters for filtering and searching.
+- Understand and use Server Actions.
+- Handle forms using Server Actions and `FormData`.
+- Handle API and Server Action errors gracefully.
+- Validate incoming data using Zod schemas.
+- Combine Zod with TypeScript for safer applications.
+- Create type-safe API responses.
+- Build more scalable full-stack applications with Next.js.
+
+---
+
 
 # 📂 Repository Structure
 

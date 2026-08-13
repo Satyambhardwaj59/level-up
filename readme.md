@@ -71,6 +71,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 36 | Next.js Fundamentals, App Router & Navigation  | ✅ |
 | 37 | Next.js Routing, Dynamic Routes & Navigation  | ✅ |
 | 38 | Server Components vs Client Components in Next.js  | ✅ |
+| 39 | Next.js Data Fetching, APIs & Server Actions| ✅ |
 
 # 📂 Repository Structure
 
