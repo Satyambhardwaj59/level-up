@@ -7,6 +7,12 @@
 | 37 | Next.js Routing, Dynamic Routes & Navigation  | ✅ |
 | 38 | Server Components vs Client Components in Next.js | ✅ |
 | 39 | Next.js Data Fetching, APIs & Server Actions| ✅ |
+| 40 | Rendering, Suspense & Loading UI in Next.js ⚡ | ✅ |
+| 41 | Next.js Styling, UI Architecture & Reusable Components | ✅ |
+| 42 | Images, Fonts, MetaData & SEO in Next.js ⚡ | ✅ |
+| 43 | Next.js Performance Optimization ⚡ | ✅ |
+| 44 | Production-Ready Next.js Frontend Architecture | ✅ |
+| 45 | Final Next.js Project | ✅ |
 
 ---
 
