@@ -1,0 +1,19 @@
+{
+  "appName": "MyApp",
+  "version": "1.0.0",
+  "environment": "development",
+  "server": {
+    "host": "localhost",
+    "port": 8080,
+    "ssl": false
+  },
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "name": "myapp_db"
+  },
+  "features": {
+    "enableLogging": true,
+    "maxConnections": 10
+  }
+}
