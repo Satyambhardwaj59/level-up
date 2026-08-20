@@ -84,6 +84,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 44 | Production-Ready Next.js Frontend Architecture | ✅ |
 | 45 | Final Next.js Project | ✅ |
 | **NodeJs** | | |
+| 46 | Node.js Runtime & Architecture | ✅ |
 
 # 📂 Repository Structure
 
@@ -145,6 +146,24 @@ LEVEL-UP/
 │   ├── Day-43/
 │   ├── Day-44/
 │   ├── Day-45/
+│   └── readme.md
+│
+├── NodeJs&ExpressJS
+│   ├── Day-46/
+│   ├── Day-47/
+│   ├── Day-48/
+│   ├── Day-49/
+│   ├── Day-50/
+│   ├── Day-51/
+│   ├── Day-52/
+│   ├── Day-53/
+│   ├── Day-54/
+│   ├── Day-55/
+│   ├── Day-56/
+│   ├── Day-57/
+│   ├── Day-58/
+│   ├── Day-59/
+│   ├── Day-60/
 │   └── readme.md
 │
 ├── Interview-Coding-Questions/
