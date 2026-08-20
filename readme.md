@@ -1,6 +1,6 @@
-# 🚀 45 Days of Full Stack Learning Challenge
+# 🚀 60 Days of Full Stack Learning Challenge
 
-Welcome to my **45-Day of Full Stack Learning Challenge**.
+Welcome to my **60-Day of Full Stack Learning Challenge**.
 
 The goal of this challenge is to build a strong foundation in JavaScript, improve problem-solving skills, prepare for frontend/full-stack interviews, and maintain consistency by learning and coding every day.
 
@@ -23,6 +23,8 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 - TypeScript
 - ReactJs
 - NextJs
+- NodeJs
+- ExpressJs
 - Git & GitHub
 - VS Code
 
@@ -81,6 +83,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 43 | Next.js Performance Optimization ⚡ | ✅ |
 | 44 | Production-Ready Next.js Frontend Architecture | ✅ |
 | 45 | Final Next.js Project | ✅ |
+| **NodeJs** | | |
 
 # 📂 Repository Structure
 
@@ -165,7 +168,7 @@ LEVEL-UP/
 
 # 🎯 Why This Challenge?
 
-This isn't just a 45-day challenge—it's a long-term roadmap to gradually level up from frontend fundamentals to becoming a production-ready Full Stack Developer.
+This isn't just a 60-day challenge—it's a long-term roadmap to gradually level up from frontend fundamentals to becoming a production-ready Full Stack Developer.
 
 - Build a strong foundation in JavaScript by understanding concepts in depth.
 - Master React and modern frontend development through hands-on learning.
