@@ -1,0 +1,15 @@
+{
+  "name": "level-up",
+  "version": "1.0.0",
+  "description": "Enhance our backend knowledge",
+  "license": "ISC",
+  "author": "Satyam",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
