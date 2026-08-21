@@ -4,6 +4,7 @@
 |:---:|------------------------------|:------:|
 | **NodeJs** | | |
 | 46 | Node.js Runtime & Architecture | ✅ |
+| 47 | Node.js Modules, NPM & Project Architecture| ✅ |
 
 ---
 
