@@ -1,0 +1,10 @@
+{
+  "name": "day-48-notes-manager",
+  "version": "1.0.0",
+  "description": "File-based CLI Notes Manager",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

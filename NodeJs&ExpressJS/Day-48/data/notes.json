@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Learning Node.js",
+    "content": "Today is 48 days of level up , i am currently learning Node.js",
+    "createdAt": "2026-08-22T16:37:39.260Z",
+    "updatedAt": "2026-08-22T16:37:39.262Z"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript was completed on day 18, currently Node.js",
+    "content": "Basically javascript learning is completed on 18th days of level up , currently i am exploring Node.js",
+    "createdAt": "2026-08-22T16:38:57.124Z",
+    "updatedAt": "2026-08-22T16:42:14.543Z"
+  },
+  {
+    "id": 3,
+    "title": "Hello Dev!!",
+    "content": "How are you!!!",
+    "createdAt": "2026-08-22T16:47:33.853Z",
+    "updatedAt": "2026-08-22T16:47:33.853Z"
+  }
+]
