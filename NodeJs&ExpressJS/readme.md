@@ -7,6 +7,7 @@
 | 47 | Node.js Modules, NPM & Project Architecture| ✅ |
 | 48 |  Node.js File System, Path, OS & Buffers | ✅ |
 | 49 | Event Loop, EventEmitter & Asynchronous Node.js | ✅ |
+| 50 | Node.js Streams, Buffers & Backpressure | ✅ |
 
 ---
 
