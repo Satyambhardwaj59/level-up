@@ -1,0 +1,6 @@
+Node.js is a JavaScript runtime.
+Streams allow us to process large files efficiently.
+We don't need to load the entire file into memory.
+Readable streams provide chunks of data.
+Transform streams process the incoming data.
+Writable streams write processed data to a destination.
