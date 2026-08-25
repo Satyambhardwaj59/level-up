@@ -89,6 +89,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 48 |  Node.js File System, Path, OS & Buffers | ✅ |
 | 49 | Event Loop, EventEmitter & Asynchronous Node.js | ✅ |
 | 50 | Node.js Streams, Buffers & Backpressure | ✅ |
+| 51 | Node.js HTTP Module & Building a Web Server | ✅ |
 
 # 📂 Repository Structure
 
