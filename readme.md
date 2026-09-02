@@ -91,6 +91,14 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 50 | Node.js Streams, Buffers & Backpressure | ✅ |
 | 51 | Node.js HTTP Module & Building a Web Server | ✅ |
 | 52 | Express.js Fundamentals & Middleware | ✅ |
+| 53 | Express.js Architecture: Controllers, Services & Error Handling | ✅ |
+| 54 | MongoDB + Mongoose Deep Dive | ✅ |
+| 55 | Authentication with Password Hashing & JWT | ✅ |
+| 56 | Authorization, RBAC & Permissions | ✅ |
+| 57 |API Security, Validation & Rate Limiting | ✅ |
+| 58 | Advanced Express.js & API Performance | ✅ |
+| 59 | Testing & Production-Ready Backend | ✅ |
+| 60 | Final Challenge: Build a Production-Ready Backend | ✅ |
 
 # 📂 Repository Structure
 
