@@ -1,0 +1,12 @@
+{
+  "name": "day-61",
+  "version": "1.0.0",
+  "main": "src/seed.js",
+  "scripts": {
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "mongoose": "^8.0.0"
+  }
+}
