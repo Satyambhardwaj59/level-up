@@ -1,6 +1,6 @@
-# 🚀 60 Days of Full Stack Learning Challenge
+# 🚀 80 Days of Full Stack Learning Challenge
 
-Welcome to my **60-Day of Full Stack Learning Challenge**.
+Welcome to my **80-Day of Full Stack Learning Challenge**.
 
 The goal of this challenge is to build a strong foundation in JavaScript, improve problem-solving skills, prepare for frontend/full-stack interviews, and maintain consistency by learning and coding every day.
 
@@ -25,6 +25,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 - NextJs
 - NodeJs
 - ExpressJs
+- MongoDB
 - Git & GitHub
 - VS Code
 
@@ -90,6 +91,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 49 | Event Loop, EventEmitter & Asynchronous Node.js | ✅ |
 | 50 | Node.js Streams, Buffers & Backpressure | ✅ |
 | 51 | Node.js HTTP Module & Building a Web Server | ✅ |
+| **Express.js** | | |
 | 52 | Express.js Fundamentals & Middleware | ✅ |
 | 53 | Express.js Architecture: Controllers, Services & Error Handling | ✅ |
 | 54 | MongoDB + Mongoose Deep Dive | ✅ |
@@ -99,6 +101,9 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 58 | Advanced Express.js & API Performance | ✅ |
 | 59 | Testing & Production-Ready Backend | ✅ |
 | 60 | Final Challenge: Build a Production-Ready Backend | ✅ |
+| **MongoDB** | | |
+| 61 | MongoDB Fundamentals | ✅ |
+
 
 # 📂 Repository Structure
 
@@ -180,6 +185,15 @@ LEVEL-UP/
 │   ├── Day-60/
 │   └── readme.md
 │
+├── MongoDB
+│   ├── Day-61/
+│   ├── Day-62/
+│   ├── Day-63/
+│   ├── Day-64/
+│   ├── Day-65/
+│   ├── Day-66/
+│   └── readme.md
+│
 ├── Interview-Coding-Questions/
 │        ├── JavaScript/
 │        │      ├── index.js
@@ -201,7 +215,7 @@ LEVEL-UP/
 
 # 🎯 Why This Challenge?
 
-This isn't just a 60-day challenge—it's a long-term roadmap to gradually level up from frontend fundamentals to becoming a production-ready Full Stack Developer.
+This isn't just a 80-day challenge—it's a long-term roadmap to gradually level up from frontend fundamentals to becoming a production-ready Full Stack Developer.
 
 - Build a strong foundation in JavaScript by understanding concepts in depth.
 - Master React and modern frontend development through hands-on learning.
