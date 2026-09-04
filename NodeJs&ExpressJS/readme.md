@@ -9,6 +9,7 @@
 | 49 | Event Loop, EventEmitter & Asynchronous Node.js | ✅ |
 | 50 | Node.js Streams, Buffers & Backpressure | ✅ |
 | 51 | Node.js HTTP Module & Building a Web Server | ✅ |
+| **Express.js** | | |
 | 52 | Express.js Fundamentals & Middleware | ✅ |
 | 53 | Express.js Architecture: Controllers, Services & Error Handling | ✅ |
 | 54 | MongoDB + Mongoose Deep Dive | ✅ |

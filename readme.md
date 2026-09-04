@@ -103,6 +103,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 60 | Final Challenge: Build a Production-Ready Backend | ✅ |
 | **MongoDB** | | |
 | 61 | MongoDB Fundamentals | ✅ |
+| 62 | MongoDB Indexes & Query Optimization | ✅ |
 
 
 # 📂 Repository Structure
