@@ -1,0 +1,17 @@
+{
+   "name": "day-64-mongodb-schema-design",
+  "version": "1.0.0",
+  "description": "MongoDB schema design with Mongoose",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "mongoose": "^9.9.5"
+  }
+}
