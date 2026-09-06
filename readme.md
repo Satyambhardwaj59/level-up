@@ -105,6 +105,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 61 | MongoDB Fundamentals | ✅ |
 | 62 | MongoDB Indexes & Query Optimization | ✅ |
 | 63 | MongoDB Aggregation Pipeline | ✅ |
+| 64 | MongoDB + Mongoose: Schema Design & Relationships | ✅ |
 
 
 # 📂 Repository Structure

@@ -6,6 +6,7 @@
 | 61 | MongoDB Fundamentals | ✅ |
 | 62 | MongoDB Indexes & Query Optimization | ✅ |
 | 63 | MongoDB Aggregation Pipeline | ✅ |
+| 64 | MongoDB + Mongoose: Schema Design & Relationships | ✅ |
 
 ---
 
@@ -46,6 +47,26 @@ Topics covered:
 - Aggregation pipelines
 
 ---
+
+
+# 🚀 Day 64 — MongoDB Schema Design with Mongoose
+
+## 🎯 Objective
+
+Design a production-style e-commerce database using Mongoose.
+
+Topics:
+
+- Mongoose schemas
+- Embedded documents
+- Referenced documents
+- ObjectId
+- `ref`
+- `populate()`
+- Historical snapshots
+- Schema validation
+- Indexes
+- One-to-many relationships
 
 
 # 📂 Repository Structure
