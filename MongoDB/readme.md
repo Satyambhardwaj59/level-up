@@ -7,6 +7,7 @@
 | 62 | MongoDB Indexes & Query Optimization | ✅ |
 | 63 | MongoDB Aggregation Pipeline | ✅ |
 | 64 | MongoDB + Mongoose: Schema Design & Relationships | ✅ |
+| 65 | MongoDB Transactions, Atomicity & Concurrency | ✅ |
 
 ---
 
@@ -67,6 +68,64 @@ Topics:
 - Schema validation
 - Indexes
 - One-to-many relationships
+
+---
+
+# Day 65 — MongoDB Transactions & Concurrency
+
+## 🎯 Objective
+
+Learn how MongoDB transactions maintain consistency when
+multiple collections must be updated together.
+
+---
+
+## 📚 Topics
+
+- MongoDB Transactions
+- Mongoose Sessions
+- `withTransaction()`
+- Commit
+- Rollback
+- Atomic Updates
+- `$inc`
+- `$gte`
+- Inventory Management
+- Race Conditions
+- Concurrent Requests
+- Preventing Overselling
+- Historical Order Prices
+
+---
+
+## 🏗️ Architecture
+
+```text
+POST /api/orders
+        |
+        v
+Controller
+        |
+        v
+Order Service
+        |
+        v
+MongoDB Transaction
+        |
+        +---- Validate User
+        |
+        +---- Check Products
+        |
+        +---- Check Inventory
+        |
+        +---- Create Order
+        |
+        +---- Decrease Stock
+        |
+        +---- Create Payment
+        |
+        v
+     COMMIT
 
 
 # 📂 Repository Structure
