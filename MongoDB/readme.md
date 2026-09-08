@@ -8,6 +8,7 @@
 | 63 | MongoDB Aggregation Pipeline | ✅ |
 | 64 | MongoDB + Mongoose: Schema Design & Relationships | ✅ |
 | 65 | MongoDB Transactions, Atomicity & Concurrency | ✅ |
+| 66 | MongoDB Change Streams, Events & Real-Time Data | ✅ |
 
 ---
 
