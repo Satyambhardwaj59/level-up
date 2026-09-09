@@ -108,6 +108,13 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 64 | MongoDB + Mongoose: Schema Design & Relationships | ✅ |
 | 65 | MongoDB Transactions, Atomicity & Concurrency | ✅ |
 | 66 | MongoDB Change Streams, Events & Real-Time Data | ✅ |
+| **MySQL** | | |
+| 67 | MySQL + SQL Fundamentals | ✅ |
+| 68 | - | ✅ |
+| 69 | - | ✅ |
+| 70 | - | ✅ |
+| 71 | - | ✅ |
+| 72 | - | ✅ |
 
 
 # 📂 Repository Structure
@@ -197,6 +204,15 @@ LEVEL-UP/
 │   ├── Day-64/
 │   ├── Day-65/
 │   ├── Day-66/
+│   └── readme.md
+│
+├── MySQL/
+│   ├── Day-67/
+│   ├── Day-68/
+│   ├── Day-69/
+│   ├── Day-70/
+│   ├── Day-71/
+│   ├── Day-72/
 │   └── readme.md
 │
 ├── Interview-Coding-Questions/
