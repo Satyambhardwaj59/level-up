@@ -110,7 +110,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 66 | MongoDB Change Streams, Events & Real-Time Data | ✅ |
 | **MySQL** | | |
 | 67 | MySQL + SQL Fundamentals | ✅ |
-| 68 | - | ✅ |
+| 68 | MySQL JOINs, Relationships & Query Optimization | ✅ |
 | 69 | - | ✅ |
 | 70 | - | ✅ |
 | 71 | - | ✅ |
