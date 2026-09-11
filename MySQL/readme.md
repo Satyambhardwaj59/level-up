@@ -5,7 +5,7 @@
 | **MySQL** | | |
 | 67 | MySQL + SQL Fundamentals | ✅ |
 | 68 | MySQL JOINs, Relationships & Query Optimization | ✅ |
-| 69 | - | ✅ |
+| 69 | MySQL Advanced Queries, Aggregations & Analytics | ✅ |
 | 70 | - | ✅ |
 | 71 | - | ✅ |
 | 72 | - | ✅ |
