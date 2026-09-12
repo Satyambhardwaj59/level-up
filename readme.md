@@ -112,7 +112,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 67 | MySQL + SQL Fundamentals | ✅ |
 | 68 | MySQL JOINs, Relationships & Query Optimization | ✅ |
 | 69 | MySQL Advanced Queries, Aggregations & Analytics | ✅ |
-| 70 | - | ✅ |
+| 70 | MySQL Transactions, ACID, Isolation Levels & Concurrency | ✅ |
 | 71 | - | ✅ |
 | 72 | - | ✅ |
 
