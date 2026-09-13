@@ -201,9 +201,91 @@ SELECT SUBSTRING(acc_no, 3) AS EMPID, name FROM employees WHERE acc_no=1001;
 
 SELECT REPLACE("Hey Sam!!", 'Hey', 'Hey');
 
+USE school_db;
+
 SELECT REPLACE(id, 10, 'EMP') as Ids, f_name FROM emp WHERE id=103;
 
 
 -- reverse
 
 SELECT REVERSE('Hello');
+
+
+-- Upper and Lower
+
+SELECT UPPER("abcd");
+
+SELECT UCASE("abcd");
+
+SELECT LOWER("ABCD");
+
+SELECT LCASE("ABCD");
+
+SELECT UPPER(f_name), UCASE(l_name) from emp;
+SELECT LOWER(f_name) ,LCASE(l_name) from emp;
+
+
+-- charecter length
+
+SELECT CHAR_LENGTH('Hello Sam!!');
+
+SELECT f_name, CHAR_LENGTH(f_name) AS LENGTH from emp;
+
+SELECT * FROM emp WHERE CHAR_LENGTH(f_name) > 5;
+
+
+-- String function : INSERT , LEFT, RIGHT, REPEAT and TRIM
+
+SELECT INSERT('Hey whatup', 5, 0, 'Sam ');
+
+SELECT LEFT('Hey Sam!!', 3);
+SELECT RIGHT('Hey Sam!!', 5);
+
+SELECT REPEAT("0", 5);
+
+SELECT TRIM("      Hey!!       ")
+
+
+
+
+-- DISTINCT
+
+use bank_db;
+
+SELECT * from emp2;
+
+SELECT DISTINCT dept from emp2;
+
+
+-- ORDER BY
+SELECT * FROM emp2 ORDER BY fname;    -- A -> Z shorting
+
+SELECT * FROM emp2 ORDER BY fname DESC;    -- Z -> A shorting
+
+SELECT * FROM emp2 ORDER BY dept, fname;
+
+
+-- LIKE keyword
+
+SELECT * FROM emp2 WHERE desig LIKE "%cas%";
+
+SELECT * FROM emp2 WHERE desig LIKE "%CAS%";
+
+SELECT * FROM emp2 WHERE fname LIKE "R___";
+
+ALTER TABLE emp2 ADD COLUMN salary INT NOT NULL DEFAULT 25000;
+
+UPDATE emp2 SET salary=40000 WHERE emp_id=109;
+
+SELECT * FROM emp2;
+
+-- LIMIT 
+
+SELECT * FROM emp2 LIMIT 5;
+
+SELECT * FROM emp2 LIMIT 5, 3;
+
+
+-- find heigest sealry 
+
+SELECT * FROM emp2 ORDER BY salary DESC LIMIT 1;
