@@ -7,7 +7,7 @@
 | 68 | MySQL JOINs, Relationships & Query Optimization | ✅ |
 | 69 | MySQL Advanced Queries, Aggregations & Analytics | ✅ |
 | 70 | MySQL Transactions, ACID, Isolation Levels & Concurrency | ✅ |
-| 71 | - | ✅ |
+| 71 | MySQL Stored Procedures, Functions, Triggers & Views | ✅ |
 | 72 | - | ✅ |
 
 
