@@ -103,3 +103,49 @@ SELECT CONCAT_WS(":", emp_id, fname, UCASE(desig), dept) from emp2;
 --         C102 Sham
 
 SELECT CONCAT(LEFT(dept, 1), emp_id), fname FROM emp2;
+
+
+
+
+-- Exercise 4:
+
+-- Task 1: Find diffrent type of departments in the database
+
+SELECT DISTINCT dept from emp2;
+
+-- Task 2: Display records with High-low Salary
+SELECT * FROM emp2 ORDER BY salary DESC;
+
+-- Task 3: How to see only top 3 records from a table
+SELECT * FROM emp2 LIMIT 3;
+
+-- Task 4: Show records where first name start with letter 'A'
+SELECT * FROM emp2 WHERE fname LIKE "A%";
+
+-- Task 5: Show records where length of the lname is 4 charcater
+
+SELECT * FROM emp2 WHERE lname LIKE "____";
+
+
+
+-- Exercise 5:
+
+-- Task 1: Find totol number of employees in db
+SELECT COUNT(emp_id) FROM emp2;
+
+-- Task 2: Find No of employees in each department
+SELECT dept, COUNT(emp_id) FROM emp2 GROUP BY dept;
+
+-- Task 3: Find lowest salary paying
+SELECT MIN(salary) FROM emp2;
+
+-- Task 4: Find highest salary paying
+
+SELECT * FROM emp2 WHERE salary = (SELECT MAX(salary) FROM emp2);
+
+-- Task 5: Find totoal salary paing in loan department
+SELECT SUM(salary) FROM emp2 WHERE dept="loan";
+
+-- Task 6: Find Average salary paying in each department 
+
+SELECT dept, AVG(salary) FROM emp2 GROUP BY dept;

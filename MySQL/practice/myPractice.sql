@@ -289,3 +289,17 @@ SELECT * FROM emp2 LIMIT 5, 3;
 -- find heigest sealry 
 
 SELECT * FROM emp2 ORDER BY salary DESC LIMIT 1;
+
+
+-- Count
+
+SELECT * FROM emp2;
+SELECT COUNT(fname) FROM emp2;
+
+-- How much deparment present
+SELECT COUNT(DISTINCT dept) FROM emp2;
+
+
+-- How much manager present
+
+SELECT COUNT(emp_id) FROM emp2 WHERE desig="Manager";
