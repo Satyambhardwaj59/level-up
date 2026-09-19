@@ -115,7 +115,20 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 69 | MySQL Advanced Queries, Aggregations & Analytics | ✅ |
 | 70 | MySQL Transactions, ACID, Isolation Levels & Concurrency | ✅ |
 | 71 | MySQL Stored Procedures, Functions, Triggers & Views | ✅ |
-| 72 | - | ✅ |
+| 72 | MySQL Production E-Commerce Database Capstone | ✅ |
+| **DB Recap** | | |
+| 73 | MongoDB Recap | ✅ |
+| 74 | MySQL Recap | ✅ |
+| **Redis** | | |
+| 75 | Redis Fundamentals ⚡ | ✅ |
+| 76 | Redis: From Commands to Production-Level Caching ⚡ | ✅ |
+| **PostgreSQL** | | |
+| 77 | PostgreSQL Fundamentals + CRUD | ✅ |
+| 78 | - | ✅ |
+| 79 | - | ✅ |
+| 80 | - | ✅ |
+| 81 | - | ✅ |
+| 82 | - | ✅ |
 
 
 # 📂 Repository Structure
@@ -214,6 +227,20 @@ LEVEL-UP/
 │   ├── Day-70/
 │   ├── Day-71/
 │   ├── Day-72/
+│   └── readme.md
+│ 
+├── Redis/
+│   ├── Day-75/
+│   ├── Day-76/
+│   └── readme.md
+│ 
+├── PostgreSQL/
+│   ├── Day-77/
+│   ├── Day-78/
+│   ├── Day-79/
+│   ├── Day-80/
+│   ├── Day-81/
+│   ├── Day-82/
 │   └── readme.md
 │
 ├── Interview-Coding-Questions/

@@ -8,7 +8,7 @@
 | 69 | MySQL Advanced Queries, Aggregations & Analytics | ✅ |
 | 70 | MySQL Transactions, ACID, Isolation Levels & Concurrency | ✅ |
 | 71 | MySQL Stored Procedures, Functions, Triggers & Views | ✅ |
-| 72 | - | ✅ |
+| 72 | MySQL Production E-Commerce Database Capstone | ✅ |
 
 
 
