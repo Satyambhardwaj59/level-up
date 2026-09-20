@@ -4,8 +4,32 @@
 |:---:|------------------------------|:------:|
 | **PostgreSQL** | | |
 | 77 | PostgreSQL Fundamentals + CRUD | ✅ |
-| 78 | - | ✅ |
+| 78 | Data Types, Constraints & Production Schema Design | ✅ |
 | 79 | - | ✅ |
 | 80 | - | ✅ |
 | 81 | - | ✅ |
 | 82 | - | ✅ |
+
+
+
+
+---
+
+# 📂 Repository Structure
+
+```text
+
+PostgreSQL/
+├── Day-77/
+├── Day-78/
+├── Day-79/
+├── Day-80/
+├── Day-81/
+├── Day-82/
+├── Day-83/
+├── Day-84/
+├── Day-85/
+├── Day-86/
+└── readme.md
+
+```

@@ -124,7 +124,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 76 | Redis: From Commands to Production-Level Caching ⚡ | ✅ |
 | **PostgreSQL** | | |
 | 77 | PostgreSQL Fundamentals + CRUD | ✅ |
-| 78 | - | ✅ |
+| 78 | Data Types, Constraints & Production Schema Design | ✅ |
 | 79 | - | ✅ |
 | 80 | - | ✅ |
 | 81 | - | ✅ |
