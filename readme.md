@@ -125,7 +125,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | **PostgreSQL** | | |
 | 77 | PostgreSQL Fundamentals + CRUD | ✅ |
 | 78 | Data Types, Constraints & Production Schema Design | ✅ |
-| 79 | - | ✅ |
+| 79 | JOINs, Relationships & Advanced Queries | ✅ |
 | 80 | - | ✅ |
 | 81 | - | ✅ |
 | 82 | - | ✅ |
