@@ -6,7 +6,7 @@
 | 77 | PostgreSQL Fundamentals + CRUD | ✅ |
 | 78 | Data Types, Constraints & Production Schema Design | ✅ |
 | 79 | JOINs, Relationships & Advanced Queries | ✅ |
-| 80 | - | ✅ |
+| 80 | Aggregations + CTEs + Subqueries + Analytics | ✅ |
 | 81 | - | ✅ |
 | 82 | - | ✅ |
 
