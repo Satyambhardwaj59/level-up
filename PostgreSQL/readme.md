@@ -10,7 +10,7 @@
 | 81 | Window Functions + Analytics | ✅ |
 | 82 | Indexes + EXPLAIN + Performance | ✅ |
 | 83 | Transactions + Locks + Concurrency | ✅ |
-| 84 | JSONB + Arrays + Functions | ⌛ |
+| 84 | JSONB + Arrays + Functions | ✅ |
 | 85 | Node.js + PostgreSQL | ⌛ |
 | 86 | Production PostgreSQL Capstone | ⌛ |
 
