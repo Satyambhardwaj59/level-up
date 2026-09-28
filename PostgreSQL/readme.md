@@ -11,8 +11,8 @@
 | 82 | Indexes + EXPLAIN + Performance | ✅ |
 | 83 | Transactions + Locks + Concurrency | ✅ |
 | 84 | JSONB + Arrays + Functions | ✅ |
-| 85 | Node.js + PostgreSQL | ⌛ |
-| 86 | Production PostgreSQL Capstone | ⌛ |
+| 85 | Node.js + PostgreSQL | ✅ |
+| 86 | Production PostgreSQL Capstone | ✅ |
 
 
 
