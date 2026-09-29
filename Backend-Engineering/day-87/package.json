@@ -1,0 +1,16 @@
+{
+  "name": "day-87-http-inspection-server",
+  "version": "1.0.0",
+  "description": "Production HTTP Inspection Server",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node tests/http-tests.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
