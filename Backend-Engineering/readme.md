@@ -3,8 +3,8 @@
 | Day | Topic | Status |
 |:---:|------------------------------|:------:|
 | **Backend Engineering** | | |
-| 87 | HTTP Fundamentals & Request Lifecycle | ⌛ |
-| 88 | Advanced HTTP | ⌛ |
+| 87 | HTTP Fundamentals & Request Lifecycle | ✅ |
+| 88 | Advanced HTTP | ✅ |
 | 89 | Routing + REST API Design | ⌛ |
 | 90 | Serialization + Deserialization | ⌛ |
 | 91 | Authentication | ⌛ |

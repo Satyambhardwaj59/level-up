@@ -135,7 +135,7 @@ The goal of this challenge is to build a strong foundation in JavaScript, improv
 | 86 | Production PostgreSQL Capstone | ✅ |
 | **Backend Engineering** | | |
 | 87 | HTTP Fundamentals & Request Lifecycle | ✅ |
-| 88 | Advanced HTTP | ⌛ |
+| 88 | Advanced HTTP | ✅ |
 | 89 | Routing + REST API Design | ⌛ |
 | 90 | Serialization + Deserialization | ⌛ |
 | 91 | Authentication | ⌛ |
