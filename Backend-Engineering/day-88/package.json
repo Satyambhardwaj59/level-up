@@ -1,0 +1,15 @@
+{
+  "name": "day-88-production-http-protocol-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "http1": "node src/http1-server.js",
+    "http1-client": "node src/http1-client.js",
+    "http2": "node src/http2-server.js",
+    "http2-client": "node src/http2-client.js",
+    "stream": "node src/streaming-server.js",
+    "compression": "node src/compression-server.js",
+    "monitor": "node src/connection-monitor.js",
+    "test": "node tests/protocol-tests.js"
+  }
+}
