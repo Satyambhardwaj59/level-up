@@ -5,11 +5,11 @@
 | **Backend Engineering** | | |
 | 87 | HTTP Fundamentals & Request Lifecycle | ✅ |
 | 88 | Advanced HTTP | ✅ |
-| 89 | Routing + REST API Design | ⌛ |
-| 90 | Serialization + Deserialization | ⌛ |
-| 91 | Authentication | ⌛ |
-| 92 | Authorization | ⌛ |
-| 93 | Validation + Transformation | ⌛ |
+| 89 | Routing + REST API Design | ✅ |
+| 90 | Serialization + Deserialization | ✅ |
+| 91 | Authentication | ✅ |
+| 92 | Authorization | ✅ |
+| 93 | Validation + Transformation | ✅ |
 | 94 | Controller → Service → Repository | ⌛ | 
 | 95 | Middleware + Request Context | ⌛ |
 | 96 | WebSocket Fundamentals | ⌛ |
