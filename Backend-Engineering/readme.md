@@ -11,8 +11,8 @@
 | 92 | Authorization | ✅ |
 | 93 | Validation + Transformation | ✅ |
 | 94 | Controller → Service → Repository | ✅ | 
-| 95 | Middleware + Request Context | ⌛ |
-| 96 | WebSocket Fundamentals | ⌛ |
+| 95 | Middleware + Request Context | ✅ |
+| 96 | WebSocket Fundamentals | ✅ |
 | 97 | Production WebSockets | ⌛ |
 | 98 | Caching | ⌛ |
 | 99 | Task Queues & Background Jobs | ⌛ |
