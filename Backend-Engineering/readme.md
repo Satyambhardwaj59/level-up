@@ -19,14 +19,14 @@
 | 100 | Elasticsearch Fundamentals | ✅ |
 | 101 | Elasticsearch Production | ✅ |
 | 102 | Error Handling + Fault Tolerance | ✅ |
-| 103 | Configuration Management | ⌛ |
-| 104 | Logging + Monitoring + Observability | ⌛ | 
-| 105 | Graceful Shutdown | ⌛ |
-| 106 | Backend Security | ⌛ |
-| 107 | Scaling + Performance | ⌛ |
-| 108 | Concurrency + Parallelism | ⌛ | 
-| 109 | Object Storage | ⌛ |
-| 110 | 🔥 Production Backend Capstone | ⌛ |
+| 103 | Configuration Management | ✅ |
+| 104 | Logging + Monitoring + Observability | ✅ | 
+| 105 | Graceful Shutdown | ✅ |
+| 106 | Backend Security | ✅ |
+| 107 | Scaling + Performance | ✅ |
+| 108 | Concurrency + Parallelism | ✅ | 
+| 109 | Object Storage | ✅ |
+| 110 | 🔥 Production Backend Capstone | ✅ |
 
 
 
